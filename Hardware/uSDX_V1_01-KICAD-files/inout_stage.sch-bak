@@ -1,0 +1,330 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:BS170 Q?
+U 1 1 61004D39
+P 5650 3900
+F 0 "Q?" H 5854 3946 50  0000 L CNN
+F 1 "BS170" H 5854 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5850 3825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 5650 3900 50  0001 L CNN
+	1    5650 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BS170 Q?
+U 1 1 60FE260C
+P 5650 3300
+F 0 "Q?" H 5854 3346 50  0000 L CNN
+F 1 "BS170" H 5854 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5850 3225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 5650 3300 50  0001 L CNN
+	1    5650 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BS170 Q?
+U 1 1 60FE2F10
+P 5650 4500
+F 0 "Q?" H 5854 4546 50  0000 L CNN
+F 1 "BS170" H 5854 4455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5850 4425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 5650 4500 50  0001 L CNN
+	1    5650 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4500 6000 4500
+Wire Wire Line
+	6000 4500 6000 3900
+Wire Wire Line
+	6000 3300 5850 3300
+Wire Wire Line
+	5850 3900 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	6000 3900 6000 3300
+Wire Wire Line
+	5550 3500 5550 3550
+Wire Wire Line
+	5550 3550 5000 3550
+Wire Wire Line
+	5000 3550 5000 4150
+Wire Wire Line
+	5000 4800 5550 4800
+Wire Wire Line
+	5550 4800 5550 4700
+Wire Wire Line
+	5550 4100 5550 4150
+Wire Wire Line
+	5550 4150 5000 4150
+Connection ~ 5000 4150
+Wire Wire Line
+	5000 4150 5000 4800
+Wire Wire Line
+	5550 4300 5550 4250
+Wire Wire Line
+	5550 4250 4600 4250
+Wire Wire Line
+	4600 3050 5550 3050
+Wire Wire Line
+	5550 3050 5550 3100
+Wire Wire Line
+	5550 3700 5550 3650
+Wire Wire Line
+	5550 3650 4600 3650
+Connection ~ 4600 3650
+Wire Wire Line
+	4600 3650 4600 3050
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 60FE4999
+P 5000 4900
+F 0 "#PWR?" H 5000 4700 50  0001 C CNN
+F 1 "GNDPWR" H 5004 4746 50  0000 C CNN
+F 2 "" H 5000 4850 50  0001 C CNN
+F 3 "" H 5000 4850 50  0001 C CNN
+	1    5000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4900 5000 4800
+Connection ~ 5000 4800
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 60FE7292
+P 4600 2700
+F 0 "L?" H 4688 2746 50  0000 L CNN
+F 1 "T37_2(10T)" H 4688 2655 50  0000 L CNN
+F 2 "" H 4600 2700 50  0001 C CNN
+F 3 "~" H 4600 2700 50  0001 C CNN
+	1    4600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2850 4600 3050
+Connection ~ 4600 3050
+$Comp
+L power:+12V #PWR?
+U 1 1 60FE8693
+P 4600 2450
+F 0 "#PWR?" H 4600 2300 50  0001 C CNN
+F 1 "+12V" H 4615 2623 50  0000 C CNN
+F 2 "" H 4600 2450 50  0001 C CNN
+F 3 "" H 4600 2450 50  0001 C CNN
+	1    4600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2450 4600 2550
+$Comp
+L Device:R R?
+U 1 1 60FEA249
+P 6300 3900
+F 0 "R?" V 6093 3900 50  0000 C CNN
+F 1 "10k" V 6184 3900 50  0000 C CNN
+F 2 "" V 6230 3900 50  0001 C CNN
+F 3 "~" H 6300 3900 50  0001 C CNN
+	1    6300 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60FEA7E6
+P 6600 4450
+F 0 "C?" H 6715 4496 50  0000 L CNN
+F 1 "10nF" H 6715 4405 50  0000 L CNN
+F 2 "" H 6638 4300 50  0001 C CNN
+F 3 "~" H 6600 4450 50  0001 C CNN
+	1    6600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60FEAF0C
+P 6900 3900
+F 0 "R?" V 6693 3900 50  0000 C CNN
+F 1 "10k" V 6784 3900 50  0000 C CNN
+F 2 "" V 6830 3900 50  0001 C CNN
+F 3 "~" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3900 6600 3900
+Wire Wire Line
+	6600 4300 6600 3900
+Connection ~ 6600 3900
+Wire Wire Line
+	6600 3900 6450 3900
+Wire Wire Line
+	6150 3900 6000 3900
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 60FEC6F1
+P 6600 4900
+F 0 "#PWR?" H 6600 4700 50  0001 C CNN
+F 1 "GNDPWR" H 6604 4746 50  0000 C CNN
+F 2 "" H 6600 4850 50  0001 C CNN
+F 3 "" H 6600 4850 50  0001 C CNN
+	1    6600 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4900 6600 4600
+Text HLabel 7250 3900 2    50   Input ~ 0
+tx_ctrl_1
+Wire Wire Line
+	7250 3900 7050 3900
+Text HLabel 7250 3300 2    50   Input ~ 0
+tx_ctrl_2
+Wire Wire Line
+	7250 3300 6000 3300
+Connection ~ 6000 3300
+$Comp
+L Device:C C?
+U 1 1 60FF49FA
+P 4200 4500
+F 0 "C?" H 4315 4546 50  0000 L CNN
+F 1 "33pF" H 4315 4455 50  0000 L CNN
+F 2 "" H 4238 4350 50  0001 C CNN
+F 3 "~" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60FF5106
+P 3950 4250
+F 0 "C?" V 3698 4250 50  0000 C CNN
+F 1 "100nF" V 3789 4250 50  0000 C CNN
+F 2 "" H 3988 4100 50  0001 C CNN
+F 3 "~" H 3950 4250 50  0001 C CNN
+	1    3950 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 4250 4200 4250
+Wire Wire Line
+	4200 4250 4200 4350
+Wire Wire Line
+	4600 4250 4600 3650
+Wire Wire Line
+	4200 4250 4600 4250
+Connection ~ 4200 4250
+Connection ~ 4600 4250
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 60FF76B7
+P 4200 4900
+F 0 "#PWR?" H 4200 4700 50  0001 C CNN
+F 1 "GNDPWR" H 4204 4746 50  0000 C CNN
+F 2 "" H 4200 4850 50  0001 C CNN
+F 3 "" H 4200 4850 50  0001 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4900 4200 4650
+$Comp
+L Transistor_FET:BS170 Q?
+U 1 1 60FFC550
+P 3050 2750
+F 0 "Q?" H 3254 2796 50  0000 L CNN
+F 1 "BS170" H 3254 2705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3250 2675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 3050 2750 50  0001 L CNN
+	1    3050 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61001710
+P 3400 3000
+F 0 "C?" H 3285 2954 50  0000 R CNN
+F 1 "10nF" H 3285 3045 50  0000 R CNN
+F 2 "" H 3438 2850 50  0001 C CNN
+F 3 "~" H 3400 3000 50  0001 C CNN
+	1    3400 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 2850 3400 2750
+Wire Wire Line
+	3400 2750 3250 2750
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 61002B9B
+P 3400 3250
+F 0 "#PWR?" H 3400 3050 50  0001 C CNN
+F 1 "GNDPWR" H 3404 3096 50  0000 C CNN
+F 2 "" H 3400 3200 50  0001 C CNN
+F 3 "" H 3400 3200 50  0001 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3250 3400 3150
+Wire Wire Line
+	2950 2950 2950 4250
+Wire Wire Line
+	2950 4250 3800 4250
+$Comp
+L Device:R R?
+U 1 1 61005D86
+P 2250 2900
+F 0 "R?" H 2320 2946 50  0000 L CNN
+F 1 "1k" H 2320 2855 50  0000 L CNN
+F 2 "" V 2180 2900 50  0001 C CNN
+F 3 "~" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2750 2250 2500
+Wire Wire Line
+	2250 2500 2950 2500
+Wire Wire Line
+	2950 2500 2950 2550
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6100885C
+P 2250 3250
+F 0 "#PWR?" H 2250 3050 50  0001 C CNN
+F 1 "GNDPWR" H 2254 3096 50  0000 C CNN
+F 2 "" H 2250 3200 50  0001 C CNN
+F 3 "" H 2250 3200 50  0001 C CNN
+	1    2250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3250 2250 3050
+Text HLabel 2700 4250 0    50   BiDi ~ 0
+rf_inout
+Wire Wire Line
+	2700 4250 2950 4250
+Connection ~ 2950 4250
+Text HLabel 2050 2500 0    50   Output ~ 0
+rx_in
+Wire Wire Line
+	2050 2500 2250 2500
+Connection ~ 2250 2500
+Text HLabel 3850 2750 2    50   Input ~ 0
+rx_ctrl
+Wire Wire Line
+	3850 2750 3400 2750
+Connection ~ 3400 2750
+$EndSCHEMATC
