@@ -1,0 +1,17 @@
+TODO:
+
+* check Si5351 specifications and online usdx doc
+* the inductor shouldn't be part of the power supply (current limitation)
+* find T37-2 equivalent
+* order Si5351, FST3253, ATMEGA328P-PU
+___________________________________
+
+* Check that the footprint dimensions are correct.
+* Create footprint for 
+	* SMA connector 
+	* T50-2 
+	* low power inductor
+	* power inductor
+	* encoder
+	* filter board
+	* crystals

@@ -1,137 +1,399 @@
-"Source:","C:\Users\barba\Documents\Arduino projects\uSDX_SDR_SSB PROJECT\SDR_SSB_PCB\SDR_SSB.sch"
-"Date:","5/28/2020 10:35:44 AM"
-"Tool:","Eeschema (5.1.5)-3"
-"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","83"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Category","DK_Datasheet_Link","DK_Detail_Page","Description","Digi-Key_PN","Family","MPN","Manufacturer","Status"
-"","","C1","100u/16V","Device:CP","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","~","","","","","","","","",""
-"","","C2","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C3","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C4","10uF","Device:CP","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","~","","","","","","","","",""
-"","","C5","10uF","Device:CP","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","~","","","","","","","","",""
-"","","C6","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C7","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C8","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C9","10uF/16V","Device:CP","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","~","","","","","","","","",""
-"","","C10","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C11","10nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C12","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C13","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C14","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C15","1nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C16","1nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C17","470nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C18","470nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C19","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C20","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C21","10nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C22","470nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C23","470nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C24","10nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C25","10nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C26","10nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C27","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C28","33pF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C33","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","C34","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"","","CON1","HEADPHONE","dk_Barrel-Audio-Connectors:SJ1-3523N","digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","/product-detail/en/cui-inc/SJ1-3523N/CP1-3523N-ND/738689","CONN JACK STEREO 3.5MM R/A","CP1-3523N-ND","Barrel - Audio Connectors","SJ1-3523N","CUI Inc.","Active"
-"","","CON2","MIC/PTT","dk_Barrel-Audio-Connectors:SJ1-3523N","digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","/product-detail/en/cui-inc/SJ1-3523N/CP1-3523N-ND/738689","CONN JACK STEREO 3.5MM R/A","CP1-3523N-ND","Barrel - Audio Connectors","SJ1-3523N","CUI Inc.","Active"
-"","","D1","1N4007","pspice:DIODE","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","","","","","",""
-"","","J1","CLK0","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"","","J2","CLK1","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"","","J3","CLK2","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"","","J4","Antenna","Connector:Conn_Coaxial","SMA_EDGE:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"," ~","","","","","","","","",""
-"","","J5","DC 12V","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"","","L1","100uH","pspice:INDUCTOR","Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1","~","","","","","","","","",""
-"","","L2","100uH","pspice:INDUCTOR","Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1","~","","","","","","","","",""
-"","","L3","T37_2(10T)","Device:L_Core_Ferrite","Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm","~","","","","","","","","",""
-"","","Q1","BS170","dk_Transistors-FETs-MOSFETs-Single:BS170","Package_TO_SOT_THT:TO-92L_HandSolder","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","/product-detail/en/on-semiconductor/BS170/BS170-ND/244280","MOSFET N-CH 60V 500MA TO-92","BS170-ND","Transistors - FETs, MOSFETs - Single","BS170","ON Semiconductor","Active"
-"","","Q2","BS170","dk_Transistors-FETs-MOSFETs-Single:BS170","Package_TO_SOT_THT:TO-92L_HandSolder","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","/product-detail/en/on-semiconductor/BS170/BS170-ND/244280","MOSFET N-CH 60V 500MA TO-92","BS170-ND","Transistors - FETs, MOSFETs - Single","BS170","ON Semiconductor","Active"
-"","","Q3","BS170","dk_Transistors-FETs-MOSFETs-Single:BS170","Package_TO_SOT_THT:TO-92L_HandSolder","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","/product-detail/en/on-semiconductor/BS170/BS170-ND/244280","MOSFET N-CH 60V 500MA TO-92","BS170-ND","Transistors - FETs, MOSFETs - Single","BS170","ON Semiconductor","Active"
-"","","Q4","BS170","dk_Transistors-FETs-MOSFETs-Single:BS170","Package_TO_SOT_THT:TO-92L_HandSolder","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","/product-detail/en/on-semiconductor/BS170/BS170-ND/244280","MOSFET N-CH 60V 500MA TO-92","BS170-ND","Transistors - FETs, MOSFETs - Single","BS170","ON Semiconductor","Active"
-"","","R1","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R2","1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R3","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R4","100","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R5","100","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R6","82k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R7","82k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R8","100","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R9","100","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R10","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R11","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R12","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R13","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R14","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R15","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R16","3.3k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R17","1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R18","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R19","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R20","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R21","1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R22","1k-1/2W","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical","~","","","","","","","","",""
-"","","R23","470","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R24","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","R25","1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"","","RV1","10k","Device:R_POT","Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical","~","","","","","","","","",""
-"","","SW1","L_Button","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","",""
-"","","SW2","R_Button","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","",""
-"","","SW3","Tune","Device:Rotary_Encoder_Switch","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","~","","","","","","","","",""
-"","","U1","L7805CV","dk_PMIC-Voltage-Regulators-Linear:L7805CV","digikey-footprints:TO-220-3","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","Integrated Circuits (ICs)","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964","IC REG LINEAR 5V 1.5A TO220AB","497-1443-5-ND","PMIC - Voltage Regulators - Linear","L7805CV","STMicroelectronics","Active"
-"","","U2","ATMEGA328-PU","dk_Embedded-Microcontrollers:ATMEGA328-PU","Package_DIP:DIP-28_W7.62mm_Socket_LongPads","http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326","Integrated Circuits (ICs)","http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326","/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026","IC MCU 8BIT 32KB FLASH 28DIP","ATMEGA328-PU-ND","Embedded - Microcontrollers","ATMEGA328-PU","Microchip Technology","Active"
-"","","U3","RC1602A","Display_Character:RC1602A","Display:WC1602A","http://www.raystar-optronics.com/down.php?ProID=18","","","","","","","","",""
-"","","U4","LM4562","Amplifier_Operational:LM4562","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/lm4562.pdf","","","","","","","","",""
-"","","U5","FST3253","Analog_Switch:SN74CBT3253","Package_SO:SOIC-16_4.55x10.3mm_P1.27mm","http://www.ti.com/lit/gpn/sn74cbt3253","","","","","","","","",""
-"","","U6","SI5351Module_2","SDR_SSB-rescue:SI5351Module_2-VFO","VFO_footprint:SI5351 Module","","","","","","","","","",""
-"","","U7","7400","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400","","","","","","","","",""
-"","","U8","LPF_M","QRPLABS_LPF:LPF_M","QRP_LPF:LPF_M","","","","","","","","","",""
-"","","Y1","20 Mhz","Device:Crystal","Crystal:Crystal_HC49-U_Vertical","~","","","","","","","","",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Category","DK_Datasheet_Link","DK_Detail_Page","Description","Digi-Key_PN","Family","MPN","Manufacturer","Status"
-"1","1","C1","100u/16V","Device:CP","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","~","","","","","","","","",""
-"2","14","C2, C3, C6, C7, C8, C10, C12, C13, C14, C19, C20, C27, C33, C34","100nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"3","2","C4, C5","10uF","Device:CP","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","~","","","","","","","","",""
-"4","1","C9","10uF/16V","Device:CP","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","~","","","","","","","","",""
-"5","5","C11, C21, C24, C25, C26","10nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"6","2","C15, C16","1nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"7","4","C17, C18, C22, C23","470nF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"8","1","C28","33pF","pspice:CAP","Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm","~","","","","","","","","",""
-"9","1","CON1","HEADPHONE","dk_Barrel-Audio-Connectors:SJ1-3523N","digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","/product-detail/en/cui-inc/SJ1-3523N/CP1-3523N-ND/738689","CONN JACK STEREO 3.5MM R/A","CP1-3523N-ND","Barrel - Audio Connectors","SJ1-3523N","CUI Inc.","Active"
-"10","1","CON2","MIC/PTT","dk_Barrel-Audio-Connectors:SJ1-3523N","digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf","/product-detail/en/cui-inc/SJ1-3523N/CP1-3523N-ND/738689","CONN JACK STEREO 3.5MM R/A","CP1-3523N-ND","Barrel - Audio Connectors","SJ1-3523N","CUI Inc.","Active"
-"11","1","D1","1N4007","pspice:DIODE","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","","","","","",""
-"12","1","J1","CLK0","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"13","1","J2","CLK1","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"14","1","J3","CLK2","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"15","1","J4","Antenna","Connector:Conn_Coaxial","SMA_EDGE:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"," ~","","","","","","","","",""
-"16","1","J5","DC 12V","dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021","digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","Connectors, Interconnects","https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf","/product-detail/en/molex/22-23-2021/WM4200-ND/26667","CONN HEADER VERT 2POS 2.54MM","WM4200-ND","Rectangular Connectors - Headers, Male Pins","22-23-2021","Molex","Active"
-"17","2","L1, L2","100uH","pspice:INDUCTOR","Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1","~","","","","","","","","",""
-"18","1","L3","T37_2(10T)","Device:L_Core_Ferrite","Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm","~","","","","","","","","",""
-"19","4","Q1, Q2, Q3, Q4","BS170","dk_Transistors-FETs-MOSFETs-Single:BS170","Package_TO_SOT_THT:TO-92L_HandSolder","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/BS170-D.PDF","/product-detail/en/on-semiconductor/BS170/BS170-ND/244280","MOSFET N-CH 60V 500MA TO-92","BS170-ND","Transistors - FETs, MOSFETs - Single","BS170","ON Semiconductor","Active"
-"20","12","R1, R3, R10, R11, R12, R13, R14, R15, R18, R19, R20, R24","10k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"21","4","R2, R17, R21, R25","1k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"22","4","R4, R5, R8, R9","100","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"23","2","R6, R7","82k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"24","1","R16","3.3k","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"25","1","R22","1k-1/2W","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical","~","","","","","","","","",""
-"26","1","R23","470","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical","~","","","","","","","","",""
-"27","1","RV1","10k","Device:R_POT","Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical","~","","","","","","","","",""
-"28","1","SW1","L_Button","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","",""
-"29","1","SW2","R_Button","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","","","","","","","","",""
-"30","1","SW3","Tune","Device:Rotary_Encoder_Switch","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","~","","","","","","","","",""
-"31","1","U1","L7805CV","dk_PMIC-Voltage-Regulators-Linear:L7805CV","digikey-footprints:TO-220-3","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","Integrated Circuits (ICs)","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964","IC REG LINEAR 5V 1.5A TO220AB","497-1443-5-ND","PMIC - Voltage Regulators - Linear","L7805CV","STMicroelectronics","Active"
-"32","1","U2","ATMEGA328-PU","dk_Embedded-Microcontrollers:ATMEGA328-PU","Package_DIP:DIP-28_W7.62mm_Socket_LongPads","http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326","Integrated Circuits (ICs)","http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326","/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026","IC MCU 8BIT 32KB FLASH 28DIP","ATMEGA328-PU-ND","Embedded - Microcontrollers","ATMEGA328-PU","Microchip Technology","Active"
-"33","1","U3","RC1602A","Display_Character:RC1602A","Display:WC1602A","http://www.raystar-optronics.com/down.php?ProID=18","","","","","","","","",""
-"34","1","U4","LM4562","Amplifier_Operational:LM4562","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/lm4562.pdf","","","","","","","","",""
-"35","1","U5","FST3253","Analog_Switch:SN74CBT3253","Package_SO:SOIC-16_4.55x10.3mm_P1.27mm","http://www.ti.com/lit/gpn/sn74cbt3253","","","","","","","","",""
-"36","1","U6","SI5351Module_2","SDR_SSB-rescue:SI5351Module_2-VFO","VFO_footprint:SI5351 Module","","","","","","","","","",""
-"37","1","U7","7400","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400","","","","","","","","",""
-"38","1","U8","LPF_M","QRPLABS_LPF:LPF_M","QRP_LPF:LPF_M","","","","","","","","","",""
-"39","1","Y1","20 Mhz","Device:Crystal","Crystal:Crystal_HC49-U_Vertical","~","","","","","","","","",""
+( { EESchema Netlist Version 1.1  Wed 01 Sep 2021 10:35:15 AM EEST
+Eeschema 5.1.9+dfsg1-1}
+ ( 5EC0748C Package_DIP:DIP-28_W7.62mm_Socket_LongPads U8 ATMEGA328-PU
+  ( 1 ? )
+  ( 2 DB4 )
+  ( 3 DB5 )
+  ( 4 DB6 )
+  ( 5 DB7 )
+  ( 6 E )
+  ( 7 +5V )
+  ( 8 GNDPWR )
+  ( 9 Net-(U8-Pad9) )
+  ( 10 Net-(U8-Pad10) )
+  ( 11 ? )
+  ( 12 PD6 )
+  ( 13 PD7 )
+  ( 14 PB0 )
+  ( 15 HP_OUT )
+  ( 16 TX_CTRL_1 )
+  ( 17 ? )
+  ( 18 PB4 )
+  ( 19 PB5 )
+  ( 20 AVCC )
+  ( 21 AREF )
+  ( 22 GNDPWR )
+  ( 23 I )
+  ( 24 Q )
+  ( 25 PC2 )
+  ( 26 BUT_STATE )
+  ( 27 RS )
+  ( 28 SCL )
+ )
+ ( 5EC1047A Crystal:Crystal_HC49-U_Vertical Y2 20 Mhz
+  ( 1 Net-(U8-Pad9) )
+  ( 2 Net-(U8-Pad10) )
+ )
+ ( 5EC2A016 Display:WC1602A U7 RC1602A
+  ( 1 GNDPWR )
+  ( 2 +5V )
+  ( 3 Net-(RV1-Pad2) )
+  ( 4 RS )
+  ( 5 GNDPWR )
+  ( 6 E )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 DB4 )
+  ( 12 DB5 )
+  ( 13 DB6 )
+  ( 14 DB7 )
+  ( 15 +5V )
+  ( 16 GNDPWR )
+ )
+ ( 5EC34175 Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical RV1 10k
+  ( 1 +5V )
+  ( 2 Net-(RV1-Pad2) )
+  ( 3 GNDPWR )
+ )
+ ( 5EC47B98 Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1 L1 100uH
+  ( 1 Net-(C4-Pad1) )
+  ( 2 +5V )
+ )
+ ( 5EC4C38D Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C6 100nF
+  ( 1 +5V )
+  ( 2 GNDPWR )
+ )
+ ( 5EC4C393 Capacitor_THT:CP_Radial_D4.0mm_P2.00mm C7 10uF
+  ( 1 +5V )
+  ( 2 GNDPWR )
+ )
+ ( 5EC79AD3 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C29 100nF
+  ( 1 +5V )
+  ( 2 GNDPWR )
+ )
+ ( 5EC8093D Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1 L3 100uH
+  ( 1 +5V )
+  ( 2 AVCC )
+ )
+ ( 5ECEECFB Capacitor_THT:CP_Radial_D4.0mm_P2.00mm C11 10uF/16V
+  ( 1 Net-(C11-Pad1) )
+  ( 2 Net-(C11-Pad2) )
+ )
+ ( 5ECFB0EF Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R8 10k
+  ( 1 AVCC )
+  ( 2 PB4 )
+ )
+ ( 5ECFBF1C Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R11 10k
+  ( 1 PC2 )
+  ( 2 GNDPWR )
+ )
+ ( 5ECFC931 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R10 10k
+  ( 1 AREF )
+  ( 2 PC2 )
+ )
+ ( 5ECFD4BE Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C15 10nF
+  ( 1 PB4 )
+  ( 2 GNDPWR )
+ )
+ ( 5ECFDF8F Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C16 100nF
+  ( 1 PB4 )
+  ( 2 PC2 )
+ )
+ ( 5EC9A223 SMA_EDGE:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount J2 Antenna
+  ( 1 Net-(J2-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 5F11F2C8 QRP_LPF:LPF_M U2 LPF_M
+  ( 1 RF_SIGNAL )
+  ( 2 RF_SIGNAL )
+  ( 3 GNDPWR )
+  ( 4 GNDPWR )
+  ( 5 Net-(J2-Pad1) )
+  ( 6 Net-(J2-Pad1) )
+  ( 7 GNDPWR )
+  ( 8 GNDPWR )
+ )
+ ( 5ECBD179 digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N CON1 HEADPHONE
+  ( 1 GNDPWR )
+  ( 2 Net-(C11-Pad2) )
+  ( 3 Net-(C11-Pad2) )
+ )
+ ( 625B0419 digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm J1 DC 12V
+  ( 1 Net-(D1-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 5EDA2CB0 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R7 470
+  ( 1 HP_OUT )
+  ( 2 Net-(C11-Pad1) )
+ )
+ ( 5ED89B3C digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N CON2 MIC/PTT
+  ( 1 GNDPWR )
+  ( 2 PB4 )
+  ( 3 PB5 )
+ )
+ ( 612B6AAA $noname C31 100nF
+  ( 1 AVCC )
+  ( 2 GNDPWR )
+ )
+ ( 61294AF7 Package_DIP:DIP-8_W7.62mm_LongPads U5 LM4562
+ )
+ ( 61294AFD Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R14 100
+  ( 1 90_deg )
+  ( 2 Net-(R14-Pad2) )
+ )
+ ( 61294B03 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R15 100
+  ( 1 0_deg )
+  ( 2 Net-(C23-Pad1) )
+ )
+ ( 61294B09 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R16 100
+  ( 1 270_deg )
+  ( 2 Net-(R16-Pad2) )
+ )
+ ( 61294B0F Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R13 100
+  ( 1 180_deg )
+  ( 2 Net-(C24-Pad1) )
+ )
+ ( 61294B15 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C17 470nF
+  ( 1 GNDPWR )
+  ( 2 90_deg )
+ )
+ ( 61294B1B Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C20 470nF
+  ( 1 GNDPWR )
+  ( 2 180_deg )
+ )
+ ( 61294B21 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C18 470nF
+  ( 1 0_deg )
+  ( 2 GNDPWR )
+ )
+ ( 61294B27 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C21 470nF
+  ( 1 270_deg )
+  ( 2 GNDPWR )
+ )
+ ( 61294B3C Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R18 82k
+  ( 1 Net-(C24-Pad1) )
+  ( 2 Net-(C24-Pad2) )
+ )
+ ( 61294B42 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R17 82k
+  ( 1 Net-(C23-Pad1) )
+  ( 2 Net-(C23-Pad2) )
+ )
+ ( 61294B4F Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C24 1nF
+  ( 1 Net-(C24-Pad1) )
+  ( 2 Net-(C24-Pad2) )
+ )
+ ( 61294B5A Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C23 1nF
+  ( 1 Net-(C23-Pad1) )
+  ( 2 Net-(C23-Pad2) )
+ )
+ ( 61294B65 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C26 100nF
+  ( 1 Net-(C24-Pad2) )
+  ( 2 I )
+ )
+ ( 61294B6B Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C27 100nF
+  ( 1 Net-(C23-Pad2) )
+  ( 2 Q )
+ )
+ ( 61294B75 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R19 10k
+  ( 1 I )
+  ( 2 AREF )
+ )
+ ( 61294B7B Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R20 10k
+  ( 1 GNDPWR )
+  ( 2 I )
+ )
+ ( 61294B84 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R21 10k
+  ( 1 Q )
+  ( 2 AREF )
+ )
+ ( 61294B8A Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R22 10k
+  ( 1 GNDPWR )
+  ( 2 Q )
+ )
+ ( 61294B9F Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C28 100nF
+  ( 1 GNDPWR )
+  ( 2 AREF )
+ )
+ ( 61294BB8 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C25 100nF
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( 614219EA Package_SO:SOIC-16_4.55x10.3mm_P1.27mm U4 FST3253
+  ( 1 +5V )
+  ( 2 CLK_1 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 GNDPWR )
+  ( 8 GNDPWR )
+  ( 9 Net-(C9-Pad1) )
+  ( 10 0_deg )
+  ( 11 90_deg )
+  ( 12 180_deg )
+  ( 13 270_deg )
+  ( 14 CLK_0 )
+  ( 15 GNDPWR )
+  ( 16 +5V )
+ )
+ ( 614219F0 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R6 1k
+  ( 1 Net-(C8-Pad1) )
+  ( 2 Net-(C9-Pad1) )
+ )
+ ( 614219F6 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R5 10k
+  ( 1 Net-(C8-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 614219FC Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R4 10k
+  ( 1 +5V )
+  ( 2 Net-(C8-Pad1) )
+ )
+ ( 61421A1B Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C14 100nF
+  ( 1 +5V )
+  ( 2 GNDPWR )
+ )
+ ( 61421A35 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C8 100nF
+  ( 1 Net-(C8-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 61421A5A Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C9 10nF
+  ( 1 Net-(C9-Pad1) )
+  ( 2 F_IN )
+ )
+ ( 615D1992 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C30 10nF
+  ( 1 CTRL_OUT )
+  ( 2 Net-(C30-Pad2) )
+ )
+ ( 615D199E Package_DIP:DIP-14_W7.62mm_LongPads U6 74ACT00
+ )
+ ( 615D19B8 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C22 100nF
+  ( 1 +5V )
+  ( 2 GNDPWR )
+ )
+ ( 617180C4 Package_TO_SOT_THT:TO-92_Inline Q3 BS170
+ )
+ ( 617180CA Package_TO_SOT_THT:TO-92_Inline Q2 BS170
+ )
+ ( 617180D0 Package_TO_SOT_THT:TO-92_Inline Q4 BS170
+ )
+ ( 617180F5 $noname L2 T37_2(10T)
+  ( 1 +12V )
+  ( 2 Net-(C12-Pad1) )
+ )
+ ( 61718104 $noname R9 10k
+  ( 1 Net-(C19-Pad1) )
+  ( 2 CTRL_OUT )
+ )
+ ( 6171810A $noname C19 10nF
+  ( 1 Net-(C19-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 61718110 $noname R12 10k
+  ( 1 TX_CTRL_1 )
+  ( 2 Net-(C19-Pad1) )
+ )
+ ( 61718127 $noname C13 33pF
+  ( 1 Net-(C12-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 6171812D $noname C12 100nF
+  ( 1 Net-(C12-Pad1) )
+  ( 2 RF_SIGNAL )
+ )
+ ( 61718140 Package_TO_SOT_THT:TO-92_Inline Q1 BS170
+ )
+ ( 61718146 $noname C10 10nF
+  ( 1 GNDPWR )
+  ( 2 PB0 )
+ )
+ ( 61718157 $noname R3 1k
+  ( 1 F_IN )
+  ( 2 GNDPWR )
+ )
+ ( 61904D6A USDX_V_1_01:RotaryEncoder_Alps_EC11E-Switch_Vertical_Modified_H20mm SW3 Tune
+  ( A PD7 )
+  ( B PD6 )
+  ( C GNDPWR )
+  ( S1 +5V )
+  ( S2 BUT_STATE )
+ )
+ ( 61904D76 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R25 10k
+  ( 1 BUT_STATE )
+  ( 2 GNDPWR )
+ )
+ ( 61904D82 Button_Switch_THT:SW_PUSH_6mm SW1 L_Button
+  ( 1 BUT_STATE )
+  ( 2 Net-(R23-Pad1) )
+ )
+ ( 61904D88 Button_Switch_THT:SW_PUSH_6mm SW2 R_Button
+  ( 1 BUT_STATE )
+  ( 2 Net-(R24-Pad1) )
+ )
+ ( 61904D92 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R23 3.3k
+  ( 1 Net-(R23-Pad1) )
+  ( 2 +5V )
+ )
+ ( 61904DAB Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical R24 1k
+  ( 1 Net-(R24-Pad1) )
+  ( 2 +5V )
+ )
+ ( 61D2162D Package_SO:MSOP-10_3x3mm_P0.5mm U1 Si5351A-B-GT
+  ( 1 Net-(C3-Pad2) )
+  ( 2 Net-(U1-Pad2) )
+  ( 3 Net-(U1-Pad3) )
+  ( 4 SCL )
+  ( 5 RS )
+  ( 6 CLK_2 )
+  ( 7 Net-(C3-Pad2) )
+  ( 8 GNDPWR )
+  ( 9 CLK_1 )
+  ( 10 CLK_0 )
+ )
+ ( 61D21633 Diode_SMD:D_SOD-123 D3 1N4148W
+ )
+ ( 61D21639 Diode_SMD:D_SOD-123 D2 1N4148W
+ )
+ ( 61D2164C $noname C3 100nF
+  ( 1 GNDPWR )
+  ( 2 Net-(C3-Pad2) )
+ )
+ ( 61D21656 $noname Y1 27 MHz
+  ( 1 Net-(U1-Pad3) )
+  ( 2 Net-(U1-Pad2) )
+ )
+ ( 61D21660 $noname R2 1k
+  ( 1 Net-(C3-Pad2) )
+  ( 2 SCL )
+ )
+ ( 61D21666 $noname R1 1k
+  ( 1 Net-(C3-Pad2) )
+  ( 2 RS )
+ )
+ ( 61ED146A digikey-footprints:TO-220-3 U3 L7805CV
+  ( 1 +12V )
+  ( 2 GNDPWR )
+  ( 3 Net-(C4-Pad1) )
+ )
+ ( 61ED1470 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C2 100nF
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( 61ED1476 Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm C4 100nF
+  ( 1 Net-(C4-Pad1) )
+  ( 2 GNDPWR )
+ )
+ ( 61ED147C Capacitor_THT:CP_Radial_D5.0mm_P2.50mm C1 100u/16V
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( 61ED149A Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp D1 1N4007
+  ( 1 Net-(D1-Pad1) )
+  ( 2 +12V )
+ )
+ ( 61ED14AB Capacitor_THT:CP_Radial_D4.0mm_P2.00mm C5 10uF
+  ( 1 Net-(C4-Pad1) )
+  ( 2 GNDPWR )
+ )
+)
+*

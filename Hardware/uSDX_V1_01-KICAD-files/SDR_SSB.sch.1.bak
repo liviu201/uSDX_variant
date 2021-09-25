@@ -976,6 +976,8 @@ F 0 "C24" H 11178 3496 50  0000 L CNN
 F 1 "1nF" H 11178 3405 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 11000 3450 50  0001 C CNN
 F 3 "~" H 11000 3450 50  0001 C CNN
+F 4 "885012007040" H 11000 3450 50  0001 C CNN "Mfr. No."
+F 5 "https://ro.mouser.com/ProductDetail/Wurth-Elektronik/885012007040?qs=sGAEpiMZZMvsSlwiRhF8qunkWFWGyo%252BvKawNmXnn1mviXNehIlcJxQ%3D%3D" H 11000 3450 50  0001 C CNN "Link"
 	1    11000 3450
 	0    -1   -1   0   
 $EndComp
@@ -998,6 +1000,8 @@ F 0 "C23" V 11150 4550 50  0000 L CNN
 F 1 "1nF" V 11050 4500 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 10950 4800 50  0001 C CNN
 F 3 "~" H 10950 4800 50  0001 C CNN
+F 4 "885012007040" V 10950 4800 50  0001 C CNN "Mfr. No."
+F 5 "https://ro.mouser.com/ProductDetail/Wurth-Elektronik/885012007040?qs=sGAEpiMZZMvsSlwiRhF8qunkWFWGyo%252BvKawNmXnn1mviXNehIlcJxQ%3D%3D" V 10950 4800 50  0001 C CNN "Link"
 	1    10950 4800
 	0    -1   -1   0   
 $EndComp
@@ -1987,6 +1991,8 @@ F 0 "C19" H 10015 10496 50  0000 L CNN
 F 1 "10nF" H 10015 10405 50  0000 L CNN
 F 2 "" H 9938 10300 50  0001 C CNN
 F 3 "~" H 9900 10450 50  0001 C CNN
+F 4 "08053C103JAT2A" H 9900 10450 50  0001 C CNN "Mfr. No."
+F 5 "https://ro.mouser.com/ProductDetail/AVX/08053C103JAT2A?qs=sGAEpiMZZMvsSlwiRhF8qs5C7b3M3ElyyD4egYpHdF8%3D" H 9900 10450 50  0001 C CNN "Link"
 	1    9900 10450
 	1    0    0    -1  
 $EndComp
