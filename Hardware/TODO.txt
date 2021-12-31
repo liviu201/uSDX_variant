@@ -1,14 +1,39 @@
-TODO:
+-DONE- add footprint for 27MHz crystal 
+-DONE- add footprint for 20MHz crystal 
+-DONE- add symbol and footprint for encoder 
+-DONE- add footprint for opamp
+-DONE- add correct footprint for transistors
+-DONE- create footprint for toroids
+-DONE- add footprint for inductors
+-DONE- check if the LCD trimmer footprint is correct 
+-DONE- check if the LCD library is correct, remove unnecessary holes 
+-DONE- make sure button footprints are correct 
+-DONE- add filter caps to uC power
+-DONE- should the RESET pin be connected? -> yes
+-DONE- use LM1117 as voltage regulator 
+-DONE- add power to LPF board for future active filtering
+-DONE- add 4-pin microphone connector 
+-DONE- add pin footprint
+-DONE- add test points
+-DONE- create footprint for LPF board 
+-DONE- create board for BPF
+-DONE- verify all connections
+-DONE- add one more filter cap for AREF in the tayloe mixer
+-DONE- order more BS170 just in case smoke will come out at some point  
 
-* check Si5351 specifications and online usdx doc
-* the inductor shouldn't be part of the power supply (current limitation)
-* order Si5351, FST3253, ATMEGA328P-PU
-___________________________________
 
-* Check that the footprint dimensions are correct.
-* Create footprint for 
-	* SMA connector 
-	* T50-2 
-	* filter board
+- make sure all used libraries can be easily transferred to other computers 
+- make sure the encoder footprint is correct (the mounting holes)
+- make sure the flashing connections are correct 
+- add BNC connector
+- combine BNC/SMA ports for flexibility
+- create 3D models 
 
-* Associate footprint pin names with sch symbol pin numbers
+- order support pins for PCB
+- order good quality male and female pins for the LPB boards
+
+
+- verfy everything again
+
+REMINDER:
+- I and Q are inversed from original design for better layout
