@@ -20,17 +20,18 @@
 -DONE- verify all connections
 -DONE- add one more filter cap for AREF in the tayloe mixer
 -DONE- order more BS170 just in case smoke will come out at some point  
+-DONE- could use a smaller xtal for the uC...
+-DONE- make sure the encoder footprint is correct (the mounting holes)
+-DONE- add BNC connector
 
 
 - make sure all used libraries can be easily transferred to other computers 
-- make sure the encoder footprint is correct (the mounting holes)
 - make sure the flashing connections are correct 
-- add BNC connector
-- combine BNC/SMA ports for flexibility
+- make sure the flashing pins are placed correctly at the edge of the board 
 - create 3D models 
-
+- order copper wire for toroids 
 - order support pins for PCB
-- order good quality male and female pins for the LPB boards
+- order good quality male and female pins for the BPF boards
 
 
 - verfy everything again
