@@ -23,15 +23,24 @@
 -DONE- could use a smaller xtal for the uC...
 -DONE- make sure the encoder footprint is correct (the mounting holes)
 -DONE- add BNC connector
+-DONE- should probably move the antenna connector on the left side for easy access
 
 
+- check if you have a knob for the encoder, buy if not 
+- verify if the mic/ptt footprint/3D model is correct
+- verify if the crystal footprints are correct
+- correct the 5V voltage regulator footprint 
+- rename proejct to uSDX Transceiver SMD
+- buy a 12V power source 
 - make sure all used libraries can be easily transferred to other computers 
+    - how to easily transfer footprints and 3D models without reconfiguring the paths 
 - make sure the flashing connections are correct 
 - make sure the flashing pins are placed correctly at the edge of the board 
 - create 3D models 
 - order copper wire for toroids 
 - order support pins for PCB
 - order good quality male and female pins for the BPF boards
+- add capacitors to crystals?
 
 
 - verfy everything again
