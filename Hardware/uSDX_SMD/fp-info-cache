@@ -1,169 +1,120 @@
-39384962082734
-SamacSys
-16PJ200
-16PJ200-2
-Connector
-0
-3
-3
-SamacSys
-161314
-1613 14-2
-Connector
-0
-6
-6
-SamacSys
+27901277045535
+user_footprints
 830108207209
 830108207209-1
 Crystal or Oscillator
 0
 4
 4
-SamacSys
-CAPAE430X470N
-CASE CODE 4 × 4.5
-Capacitor Polarised
+user_footprints
+ABLS-20.000MHZ-20-B-3-H-T
+
+
 0
 2
 2
-SamacSys
-CONSMA002SMDGT
-CONSMA002-SMD-G-T-1
-Connector
+user_footprints
+BNC_1-1634613-0
+
+
 0
-3
-3
-SamacSys
+4
+4
+user_footprints
+BPF_board
+
+
+0
+8
+8
+user_footprints
 ECS2002020BMDP
 ECS-200-20-20BM-DP-1
 Crystal or Oscillator
 0
 4
 4
-SamacSys
-EEE0GA101SR
-SMD_Lytic_C
-Capacitor Polarised
+user_footprints
+MSS6122-104MLC
+
+
 0
 2
 2
-SamacSys
-NCV7805BDTRKG_1
-NCV7805BDTRKG_1
-Integrated Circuit
+user_footprints
+PEC11H-4220F-S0024
+
+
+0
+7
+5
+user_footprints
+Potentiometer_Vishay_TS53YJ_Vertical
+Potentiometer, vertical, Vishay TS53YJ, https://www.vishay.com/docs/51008/ts53.pdf
+Potentiometer vertical Vishay TS53YJ
 0
 3
 3
-SamacSys
-PTS125SM122LFS
-PTS125SM122LFS-3
-Switch
-0
-4
-4
-SamacSys
-QFP80P900X900X120-32N
-32A
-Integrated Circuit
-0
-32
-32
-SamacSys
-QFP80P1200X1200X120-44N
-44A – TQFP
-Integrated Circuit
-0
-44
-44
-SamacSys
+user_footprints
 RASM722BKZ
 RASM722BKZ-2
 Connector
 0
 3
 3
-SamacSys
+user_footprints
 RC1602BBIWESX
 RC1602B-BIW-ESX-5
 Display
 0
-24
-24
-SamacSys
-SJ43514SMTTR
-SJ-43514-SMT-TR-7
-Connector
-0
-8
-8
-SamacSys
-SOD3816X135N
-SOD-123
-Diode
-0
-2
-2
-SamacSys
-SODFL4626X110N
-1N4007F
-Diode
-0
-2
-2
-SamacSys
-SOIC127P600X175-8N
-D (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-SamacSys
-SOIC127P600X175-14N
-SOIC-14 NB CASE751A-03 ISSUE K
-Integrated Circuit
-0
-14
-14
-SamacSys
-SOP50P490X110-10N
-10-MSOP Package
-Integrated Circuit
-0
-10
-10
-SamacSys
-SOP65P640X110-16N
-MTC16 (MO-153)
-Integrated Circuit
-0
-16
-16
-SamacSys
-SOT230P700X180-3N
-SOT223+3
-Integrated Circuit
-0
-3
-3
-SamacSys
+20
+20
+user_footprints
 SOT230P700X180-4N
-SOT-223 CASE 318H ISSUE B
+SOT-223-
 Integrated Circuit
 0
 4
 4
-SamacSys
-STX31503C1
-STX-3150-3C-1-2
-Connector
+user_footprints
+TO-92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3
-SamacSys
-VLS3010
-VLS3010
-Inductor
+user_footprints
+VLS3010CX-101M-1
+
+
 0
 2
 2
+user_footprints
+XRCGB27M000F2P01R0
+
+
+0
+4
+4
+user_footprints
+pin
+
+
+0
+1
+1
+user_footprints
+pushbutton
+
+
+0
+4
+4
+user_footprints
+testpoint
+
+
+0
+1
+1
