@@ -35,16 +35,16 @@
 -DONE- make sure the flashing connections are correct 
 -DONE- verify if the crystal footprints are correct
 -DONE- verify if the mic/ptt footprint/3D model is correct
+-DONE- create 3D models 
 
 
 
 
-- create 3D models 
 
-- rename proejct to uSDX Transceiver SMD
-- buy a 12V power source 
 - make sure all used libraries can be easily transferred
     - how to easily transfer footprints and 3D models without reconfiguring the paths 
+- rename proejct to uSDX Transceiver SMD
+- buy a 12V power source 
 - download all the datasheets
 
 - order copper wire for toroids 

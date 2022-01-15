@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "uSDX_BPF")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/uSDX_BPF.kicad_sym")(options "")(descr ""))
+)
