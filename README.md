@@ -11,7 +11,7 @@ for both uSDX_BPF and uSDX_Transceiver_SMD projects.
 - KICAD6_FOOTPRINT_DIR -> ./Hardware/Footprints
 - KICAD6_SYMBOL_DIR -> ./Hardware/Symbols
 
-![paths](./Documentation/readme_md_images/02-paths.png)
+![paths](./Documentation/readme_md_images/02-paths.PNG)
 
 4. Go to Preferences -> Manage symbol libraries
 5. If the libraries under the Global Libraries tab are active, press Ctrl+A to select all of them and then press Space to untick the "Active" property for all of them.
