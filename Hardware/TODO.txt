@@ -29,30 +29,29 @@
 -DONE- fix the VR footprint
 -DONE- make sure the flashing pins are placed correctly at the edge of the board 
 -DONE- verify that the button footprints are correct (the electrical connection 
-  is done that way)
+       is done that way)
 -DONE- make the reset button smaller 
 -DONE- correct the 5V voltage regulator footprint 
 -DONE- make sure the flashing connections are correct 
 -DONE- verify if the crystal footprints are correct
 -DONE- verify if the mic/ptt footprint/3D model is correct
 -DONE- create 3D models 
+-DONE- make sure all used libraries can be easily transferred
+-DONE- order support pins for PCB
+-DONE- verfy everything again
+-DONE- rename project to uSDX Transceiver SMD
+-DONE- download all the datasheets
 
 
 
 
-
-- make sure all used libraries can be easily transferred
-    - how to easily transfer footprints and 3D models without reconfiguring the paths 
-- rename proejct to uSDX Transceiver SMD
+- document how to configure the paths for symbols, footprints and 3D models 
 - buy a 12V power source 
-- download all the datasheets
+- put all needed tools in the repo 
 
 - order copper wire for toroids 
-- order support pins for PCB
-- order good quality male and female pins for the BPF boards
 
 
-- verfy everything again
 
 REMINDER:
 - I and Q are inversed from original design for better layout

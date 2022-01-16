@@ -1,6 +1,6 @@
-(footprint "pin" (version 20211014) (generator pcbnew)
+(footprint "pin_angled" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E3F3BF)
+  (tedit 61E3F3A9)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -2.54) (layer "F.SilkS")
     (effects (font (size 0.8 0.8) (thickness 0.1)))
@@ -11,7 +11,7 @@
     (tstamp f66de731-8294-4506-9027-796d51ca5940)
   )
   (pad "1" thru_hole circle (at 0 -0.2032) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 11e5c902-223b-433f-b44a-157bd36a9413))
-  (model "${KICAD6_3DMODEL_DIR}/filterStandoff.step"
+  (model "${KICAD6_3DMODEL_DIR}/angled_socket_header.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
