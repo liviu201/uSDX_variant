@@ -1,0 +1,6 @@
+[submodule "avrdude"]
+	path = avrdude
+	url = C:\\Users\\Liviu\\Documents\\Projects\\uSDX_variant\\Tools\\avrdude
+[submodule "Tools/avrdude"]
+	path = Tools/avrdude
+	url = https://github.com/avrdudes/avrdude.git
