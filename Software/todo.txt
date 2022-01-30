@@ -1,0 +1,23 @@
+===========
+    DONE
+===========
+- make the code compile without using the Arduino build process
+    - use CMake and Ninja
+    - credit: https://github.com/ptrks/CMake-avr-example/blob/master/basic_example/CMakeLists.txt
+
+
+
+===========
+IN PROGRESS
+===========
+
+- divide the code into its constituent parts 
+
+
+
+===========
+   TO DO
+===========
+
+- give credit where credit is due
+- show how to configure cmake to scan for certain kits

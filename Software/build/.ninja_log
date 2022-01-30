@@ -1,0 +1,16 @@
+# ninja log v5
+1	56	6650099669506160	CMakeFiles/uSDX_Transceiver.dir/Application/uSDX_transceiver.cpp.obj	56da450227d4aaa2
+18	36	0	CMakeFiles/eeprom	187570a3b711770a
+62	155	6650096760904097	uSDX_Transceiver	75856912ef1b1630
+1	21	0	C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/strip	83939559794f5291
+0	64	6650101972957184	uSDX_Transceiver.elf	a205b570d11d8d67
+1	21	0	CMakeFiles/strip	83939559794f5291
+21	41	0	CMakeFiles/hex	b6cb7c328b99455b
+21	41	0	C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/hex	b6cb7c328b99455b
+18	36	0	C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/eeprom	187570a3b711770a
+1	62	6651661561816184	CMakeFiles/uSDX_Transceiver.dir/Application/uSDX_transceiver.cpp.obj	8b6cc6dd4b509d1
+62	153	6651661562696325	uSDX_Transceiver.elf	b6edd1b536591ac9
+153	192	0	CMakeFiles/strip	83939559794f5291
+153	192	0	C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/strip	83939559794f5291
+192	232	0	CMakeFiles/hex	b6cb7c328b99455b
+192	232	0	C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/hex	b6cb7c328b99455b
