@@ -3,6 +3,8 @@
 
 #define __AVR_ATmega328P__
 
-typedef unsigned int size_t;
+typedef unsigned char uint8;
+typedef unsigned short uint16;
+typedef unsigned int uint32;
 
 #endif //PLATFORM_H

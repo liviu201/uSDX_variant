@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -48,9 +48,19 @@ build CMakeFiles/uSDX_Transceiver.dir/Application/uSDX_transceiver.cpp.obj: CXX_
   DEFINES = -DF_CPU=16000000
   DEP_FILE = CMakeFiles\uSDX_Transceiver.dir\Application\uSDX_transceiver.cpp.obj.d
   FLAGS = -mmcu=atmega328p -gstabs -g -ggdb -DF_CPU=16000000 -DBAUD=115200 -Os -lm -lprintf_flt -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -ffunction-sections -fdata-sections
-  INCLUDES = -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/libraries/Drivers/LCD
+  INCLUDES = -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software. -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/../Tools/avr8-gnu-toolchain-win32_x86/avr/include -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/libraries/Encoder -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/libraries/Drivers/LCD
   OBJECT_DIR = CMakeFiles\uSDX_Transceiver.dir
   OBJECT_FILE_DIR = CMakeFiles\uSDX_Transceiver.dir\Application
+  TARGET_COMPILE_PDB = CMakeFiles\uSDX_Transceiver.dir\
+  TARGET_PDB = uSDX_Transceiver.elf.pdb
+
+build CMakeFiles/uSDX_Transceiver.dir/libraries/Drivers/LCD/LCD_Driver.cpp.obj: CXX_COMPILER__uSDX_Transceiver_ C$:/Users/Liviu/Documents/Projects/uSDX_variant/Software/libraries/Drivers/LCD/LCD_Driver.cpp || cmake_object_order_depends_target_uSDX_Transceiver
+  DEFINES = -DF_CPU=16000000
+  DEP_FILE = CMakeFiles\uSDX_Transceiver.dir\libraries\Drivers\LCD\LCD_Driver.cpp.obj.d
+  FLAGS = -mmcu=atmega328p -gstabs -g -ggdb -DF_CPU=16000000 -DBAUD=115200 -Os -lm -lprintf_flt -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -ffunction-sections -fdata-sections
+  INCLUDES = -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software. -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/../Tools/avr8-gnu-toolchain-win32_x86/avr/include -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/libraries/Encoder -IC:/Users/Liviu/Documents/Projects/uSDX_variant/Software/libraries/Drivers/LCD
+  OBJECT_DIR = CMakeFiles\uSDX_Transceiver.dir
+  OBJECT_FILE_DIR = CMakeFiles\uSDX_Transceiver.dir\libraries\Drivers\LCD
   TARGET_COMPILE_PDB = CMakeFiles\uSDX_Transceiver.dir\
   TARGET_PDB = uSDX_Transceiver.elf.pdb
 
@@ -62,7 +72,7 @@ build CMakeFiles/uSDX_Transceiver.dir/Application/uSDX_transceiver.cpp.obj: CXX_
 #############################################
 # Link the executable uSDX_Transceiver.elf
 
-build uSDX_Transceiver.elf: CXX_EXECUTABLE_LINKER__uSDX_Transceiver_ CMakeFiles/uSDX_Transceiver.dir/Application/uSDX_transceiver.cpp.obj
+build uSDX_Transceiver.elf: CXX_EXECUTABLE_LINKER__uSDX_Transceiver_ CMakeFiles/uSDX_Transceiver.dir/Application/uSDX_transceiver.cpp.obj CMakeFiles/uSDX_Transceiver.dir/libraries/Drivers/LCD/LCD_Driver.cpp.obj
   FLAGS = -mmcu=atmega328p -gstabs -g -ggdb -DF_CPU=16000000 -DBAUD=115200 -Os -lm -lprintf_flt -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -ffunction-sections -fdata-sections
   OBJECT_DIR = CMakeFiles\uSDX_Transceiver.dir
   POST_BUILD = cd .
@@ -94,6 +104,12 @@ build eeprom: phony CMakeFiles/eeprom strip
 # Utility command for flash
 
 build flash: phony CMakeFiles/flash hex
+
+
+#############################################
+# Utility command for clean_prj
+
+build clean_prj: phony CMakeFiles/clean_prj
 
 
 #############################################
@@ -145,7 +161,14 @@ build CMakeFiles/eeprom | ${cmake_ninja_workdir}CMakeFiles/eeprom: CUSTOM_COMMAN
 # Custom command for CMakeFiles\flash
 
 build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND || hex strip uSDX_Transceiver.elf
-  COMMAND = cmd.exe /C "cd /D C:\Users\Liviu\Documents\Projects\uSDX_variant\Software\build && avrdude -c usbasp -p atmega328p -U flash:w:uSDX_Transceiver.hex"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Liviu\Documents\Projects\uSDX_variant\Software\build && avrdude -c arduino -p atmega328p -P COM4 -U flash:w:uSDX_Transceiver.hex"
+
+
+#############################################
+# Custom command for CMakeFiles\clean_prj
+
+build CMakeFiles/clean_prj | ${cmake_ninja_workdir}CMakeFiles/clean_prj: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Liviu\Documents\Projects\uSDX_variant\Software\build && del /f *.elf *.hex *.eeprom"
 
 # =============================================================================
 # Target aliases.

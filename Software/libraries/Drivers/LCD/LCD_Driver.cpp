@@ -20,27 +20,27 @@
 #define PLACE_DATA(data)    (PORTD = (PORTD & 0xF0u) | ((data) & 0x0Fu))
 
 // LCD commands
-#define CLEAR_DISPLAY()           (uint8_t)0x01u
-#define RET_HOME()                (uint8_t)0x02u
-#define ENTRY_MODE_SET(I_D, S)    (uint8_t)0x04u |  (((I_D) & 0x01u) << 1) | \
+#define CLEAR_DISPLAY()           (uint8)0x01u
+#define RET_HOME()                (uint8)0x02u
+#define ENTRY_MODE_SET(I_D, S)    (uint8)0x04u |  (((I_D) & 0x01u) << 1) | \
                                                     ((S) & 0x01u)
 
-#define DISPLAY_CTRL(D, C, B)     (uint8_t)0x08u |  (((D) & 0x01u) << 2) | \
+#define DISPLAY_CTRL(D, C, B)     (uint8)0x08u |  (((D) & 0x01u) << 2) | \
                                                     (((C) & 0x01u) << 1) | \
                                                     ((B) & 0x01u)
 
-#define CUR_DISP_SHIFT(S_C, R_L)  (uint8_t)0x10u |  (((S_C) & 0x01u) << 3) | \
+#define CUR_DISP_SHIFT(S_C, R_L)  (uint8)0x10u |  (((S_C) & 0x01u) << 3) | \
                                                     (((R_L) & 0x01u) << 2)
 
-#define FUNCTION_SET(DL, N, F)    (uint8_t)0x20u |  (((DL) & 0x01u) << 4) | \
+#define FUNCTION_SET(DL, N, F)    (uint8)0x20u |  (((DL) & 0x01u) << 4) | \
                                                     (((N) & 0x01u) << 3) | \
                                                     (((F) & 0x01u) << 2)
 
 // CGRAM (Character generator RAM) addresses are 6 bits wide
-#define SET_CGRAM_ADDR(ACG)       (uint8_t)0x40u |  ((ACG) & 0x3Fu)
+#define SET_CGRAM_ADDR(ACG)       (uint8)0x40u |  ((ACG) & 0x3Fu)
 
 // DDRAM (Data Display RAM) addresses are 7 bits wide
-#define SET_DDRAM_ADDR(ADD)       (uint8_t)0x80u |  ((ADD) & 0x7Fu)
+#define SET_DDRAM_ADDR(ADD)       (uint8)0x80u |  ((ADD) & 0x7Fu)
 
 // LCD command parameters options
 // I_D - Increment/Decrement
@@ -85,11 +85,11 @@
 
 // --- Delays ---
 // LCD startup delay
-#define STARTUP_DELAYTIME   5000 // ms
+#define STARTUP_DELAYTIME   100 // ms
 
 // Bus delays
-#define SETTLE_DELAY 100 // us
-#define STROBE_DELAY 200 // us
+#define SETTLE_DELAY 200 // us
+#define STROBE_DELAY 300 // us
 
 // Commands delays
 #define CLEAR_DELAY 2000 // ms
@@ -97,7 +97,7 @@
 //-----------------------------------------------------------------------------//
 //----------------------------------Variables----------------------------------//
 //-----------------------------------------------------------------------------//
-static uint8_t cgram_location = 0;
+static uint8 cgram_location = 0;
 #define CGRAM_MAX_CHARS 8
 #define CGRAM_CHARS_EXCEEDED 0xFFu
 
@@ -115,7 +115,7 @@ void LCD::init(){
     DDRC |= (OUT << RS);
 
     // Make sure all outputs are low
-    PLACE_DATA(0x00u);
+    // PLACE_DATA(0x00u);
     PORTD &= ~(1 << RS);
     PORTC &= ~(1 << EN);
 
@@ -123,21 +123,29 @@ void LCD::init(){
     _delay_ms(STARTUP_DELAYTIME);
 
     // send only the higher nibble of function set, DL = 4 bits
-    sendCommand(0x02u);
+    // sendCommand(0x02u);
+    PLACE_DATA(0x02u);
+    latchData();
+    _delay_ms(5);
 
     // repeat the previous command, send the whole byte
     sendCommand(FUNCTION_SET(DL_HALF, N2, F8));
+    latchData();
+    _delay_us(200);
 
     sendCommand(DISPLAY_CTRL(D_ON, C_OFF, B_OFF));
+    latchData();
     sendCommand(ENTRY_MODE_SET(INC, NO_SHIFT));
+    latchData();
     sendCommand(CLEAR_DISPLAY());
+    latchData();
 }
 
-void LCD::setCursor(uint8_t line, uint8_t col){ 
+void LCD::setCursor(uint8 line, uint8 col){ 
     sendCommand(SET_DDRAM_ADDR(line * 0x40u + col));
 }
 
-void LCD::print(uint8_t message[], uint8_t len){
+void LCD::print(uint8 message[], uint8 len){
     for(int i = 0; i < len; i++){
         sendData(message[i]);
     }
@@ -164,8 +172,8 @@ void LCD::disableDisplay(){
     sendCommand(DISPLAY_CTRL(D_OFF, C_OFF, B_OFF));
 }
 
-uint8_t LCD::createChar(uint8_t glyph[]){
-    uint8_t retVal;
+uint8 LCD::createChar(uint8 glyph[]){
+    uint8 retVal;
 
     if(cgram_location >= CGRAM_MAX_CHARS){
         retVal = CGRAM_CHARS_EXCEEDED;
@@ -190,14 +198,14 @@ uint8_t LCD::createChar(uint8_t glyph[]){
 //-----------------------Private functions implementation----------------------//
 //-----------------------------------------------------------------------------//
 
-void LCD::sendCommand(uint8_t u8_command){
+void LCD::sendCommand(uint8 u8_command){
     // prepare the LCD for receiving commands (RS should be 0)
     PREPARE_COMMANDS();
 
     write(u8_command);
 }
 
-void LCD::sendData(uint8_t u8_data){
+void LCD::sendData(uint8 u8_data){
     // prepare the LCD for receiving data (RS should be 1)
     PREPARE_DATA();
 
@@ -212,8 +220,8 @@ void LCD::latchData(){
     _delay_us(SETTLE_DELAY);
 }
 
-void LCD::write(uint8_t u8_data){
-    uint8_t u8_temp;
+void LCD::write(uint8 u8_data){
+    uint8 u8_temp;
 
     // send the higher nibble
     u8_temp = (u8_data & 0xF0u) >> 4;

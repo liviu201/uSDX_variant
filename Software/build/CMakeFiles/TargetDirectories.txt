@@ -3,5 +3,6 @@ C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/strip.d
 C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/hex.dir
 C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/eeprom.dir
 C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/flash.dir
+C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/clean_prj.dir
 C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/edit_cache.dir
 C:/Users/Liviu/Documents/Projects/uSDX_variant/Software/build/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-g++.exe")
+set(CMAKE_CXX_COMPILER "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "5.4.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/bin/avr-ld.exe")
+set(CMAKE_AR "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/bin/avr-ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/lib/gcc/avr/5.4.0/include;C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/lib/gcc/avr/5.4.0/include-fixed;C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/avr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/lib/gcc/avr/5.4.0/include;C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/lib/gcc/avr/5.4.0/include-fixed;C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/avr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "gcc;m;gcc;m;c")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/lib/gcc/avr/5.4.0;C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/lib/gcc;C:/Users/Liviu/Documents/Projects/uSDX_variant/Tools/avr8-gnu-toolchain-win32_x86/avr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/lib/gcc/avr/5.4.0;C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/lib/gcc;C:/Users/Liviu/Documents/Software/avr8-gnu-toolchain-win32_x86/avr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
