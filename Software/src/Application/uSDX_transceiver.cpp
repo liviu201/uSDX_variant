@@ -16,12 +16,12 @@ LCD theLCD;
 
 int main(void)
 {
-    uint8 message[] = "ABC";
+    uint8 message[] = "tac-pac";
 
     theLCD.init();
     theLCD.clear();
-    theLCD.setCursor(1, 6);
-    theLCD.print(message, 3);
+    theLCD.setCursor(1,4);
+    theLCD.print(message, ARRAY_LEN(message));
 
     while(1)
     {

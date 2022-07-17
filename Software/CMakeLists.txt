@@ -1,77 +1,21 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.11)
 
 set(CMAKE_GENERATOR ninja)
-
-# set(PROG_TYPE usbasp)
-set(PROG_TYPE arduino)
-
-# Variables regarding the AVR chip
-set(MCU   atmega328p)
-# set(F_CPU 20000000)
-set(F_CPU 16000000)
-set(BAUD  115200)
-set(PORT COM4)
-add_definitions(-DF_CPU=${F_CPU})
-
-# program names
-set(AVRCPP   avr-g++)
-set(AVRC     avr-gcc)
-set(AVRSTRIP avr-strip)
-set(OBJCOPY  avr-objcopy)
-set(OBJDUMP  avr-objdump)
-set(AVRSIZE  avr-size)
-set(AVRDUDE  avrdude)
-
-# Sets the compiler
-# Needs to come before the project function
-set(CMAKE_SYSTEM_NAME  Generic)
-set(CMAKE_CXX_COMPILER ${AVRCPP})
-set(CMAKE_C_COMPILER   ${AVRC})
-set(CMAKE_ASM_COMPILER   ${AVRC})
-
 
 # set the project name
 project(uSDX_Transceiver C CXX ASM)
 
+# GoogleTest requires at least C++11
+set(CMAKE_CXX_STANDARD 11)
 
-# Compiler flags
-set(CSTANDARD "-std=gnu99")
-set(CDEBUG    "-gstabs -g -ggdb")
-set(CWARN     "-Wall -Wstrict-prototypes -Wl,--gc-sections -Wl,--relax")
-set(CTUNING   "-funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -ffunction-sections -fdata-sections")
-set(COPT      "-Os -lm -lprintf_flt")
-set(CMCU      "-mmcu=${MCU}")
-set(CDEFS     "-DF_CPU=${F_CPU} -DBAUD=${BAUD}")
-
-set(CFLAGS   "${CMCU} ${CDEBUG} ${CDEFS} ${COPT} ${CWARN} ${CSTANDARD} ${CTUNING}")
-set(CXXFLAGS "${CMCU} ${CDEBUG} ${CDEFS} ${COPT} ${CTUNING}")
-
-set(CMAKE_C_FLAGS   "${CFLAGS}")
-set(CMAKE_CXX_FLAGS "${CXXFLAGS}")
-set(CMAKE_ASM_FLAGS   "${CFLAGS}")
-
-# add the executable
-add_executable(${PROJECT_NAME} Application/uSDX_transceiver.cpp)
-
-target_include_directories(${PROJECT_NAME} PUBLIC
+include_directories(${PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}.
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Tools/avr8-gnu-toolchain-win32_x86/avr/include/
-    ${CMAKE_CURRENT_SOURCE_DIR}/libraries/Encoder/
-    ${CMAKE_CURRENT_SOURCE_DIR}/libraries/Drivers/LCD/
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Application/
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/libraries/Drivers/Encoder/
+    ${CMAKE_CURRENT_SOURCE_DIR}/src//libraries/Drivers/LCD/
 )
 
-target_sources(${PROJECT_NAME} PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/Application/uSDX_transceiver.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/libraries/Drivers/LCD/LCD_Driver.cpp
-)
-
-set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_NAME}.elf")
-
-add_custom_target(strip ALL     ${AVRSTRIP} "${PROJECT_NAME}.elf" DEPENDS ${PROJECT_NAME})
-add_custom_target(hex   ALL     ${OBJCOPY} -R .eeprom -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.hex" DEPENDS strip)
-add_custom_target(eeprom        ${OBJCOPY} -j .eeprom --change-section-lma .eeprom=0 -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.eeprom" DEPENDS strip)
-add_custom_target(flash ${AVRDUDE} -c ${PROG_TYPE} -p ${MCU} -P ${PORT} -U flash:w:${PROJECT_NAME}.hex DEPENDS hex)
-add_custom_target(clean_prj del /f *.elf *.hex *.eeprom)
-
-set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${PROJECT_NAME}.hex;${PROJECT_NAME}.eeprom;${PROJECT_NAME}.lst")
-
+add_subdirectory(src)
+add_subdirectory(tests)
+add_subdirectory(lib/googletest)
