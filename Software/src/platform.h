@@ -6,7 +6,7 @@
     #define __AVR_ATmega328P__
 #endif
 
-#define ARRAY_LEN(x)    (sizeof(x) / sizeof((x)[0])) - 1u
+#define MESSAGE_LEN(x)    (sizeof(x) / sizeof((x)[0])) - 1u
 
 typedef unsigned char uint8;
 typedef unsigned short uint16;

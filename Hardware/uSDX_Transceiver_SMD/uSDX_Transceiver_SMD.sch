@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SamacSys_Parts:16PJ200 J1
+L uSDX_Transceiver_SMD-rescue:16PJ200-SamacSys_Parts J1
 U 1 1 61B4CC7A
 P 1050 1500
 F 0 "J1" H 1450 1765 50  0000 C CNN
@@ -33,7 +33,7 @@ F 11 "" H 1700 700 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:1N4007F D1
+L uSDX_Transceiver_SMD-rescue:1N4007F-SamacSys_Parts D1
 U 1 1 61B4D7F6
 P 2350 1450
 F 0 "D1" H 2650 1183 50  0000 C CNN
@@ -52,7 +52,7 @@ F 11 "" H 2800 550 50  0001 L CNN "Arrow Price/Stock"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SamacSys_Parts:EEE-FK1C101SR C1
+L uSDX_Transceiver_SMD-rescue:EEE-FK1C101SR-SamacSys_Parts C1
 U 1 1 61B4F6CF
 P 2500 1500
 F 0 "C1" V 2704 1630 50  0000 L CNN
@@ -71,7 +71,7 @@ F 11 "https://www.arrow.com/en/products/eee-fk1c101sr/panasonic" H 2850 650 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0101
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0101
 U 1 1 61B57471
 P 1900 2100
 F 0 "#PWR0101" H 1900 1850 50  0001 C CNN
@@ -82,7 +82,7 @@ F 3 "" H 1900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0102
 U 1 1 61B57F2D
 P 2500 2100
 F 0 "#PWR0102" H 2500 1850 50  0001 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 2500 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L uSDX_Transceiver_SMD-rescue:C-Device C3
 U 1 1 61B5923B
 P 3200 1750
 F 0 "C3" H 3315 1796 50  0000 L CNN
@@ -108,7 +108,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1450 2550 1450
 $Comp
-L power:GND #PWR0103
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0103
 U 1 1 61B59E42
 P 3200 2100
 F 0 "#PWR0103" H 3200 1850 50  0001 C CNN
@@ -122,7 +122,7 @@ Connection ~ 3200 1450
 Connection ~ 2500 1450
 NoConn ~ 1150 1550
 $Comp
-L power:GND #PWR0104
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0104
 U 1 1 61BF52A8
 P 3800 2100
 F 0 "#PWR0104" H 3800 1850 50  0001 C CNN
@@ -133,7 +133,7 @@ F 3 "" H 3800 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L uSDX_Transceiver_SMD-rescue:C-Device C6
 U 1 1 61BF58E0
 P 4400 1800
 F 0 "C6" H 4515 1846 50  0000 L CNN
@@ -146,7 +146,7 @@ $EndComp
 Wire Wire Line
 	4400 1450 4400 1650
 $Comp
-L power:GND #PWR0105
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0105
 U 1 1 61BF6362
 P 4400 2100
 F 0 "#PWR0105" H 4400 1850 50  0001 C CNN
@@ -157,7 +157,7 @@ F 3 "" H 4400 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:UCQ1C100MCL1GB C9
+L uSDX_Transceiver_SMD-rescue:UCQ1C100MCL1GB-SamacSys_Parts C9
 U 1 1 61BF94D1
 P 4950 1550
 F 0 "C9" V 5154 1680 50  0000 L CNN
@@ -179,7 +179,7 @@ Wire Wire Line
 	4400 1450 4950 1450
 Connection ~ 4400 1450
 $Comp
-L power:GND #PWR0106
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0106
 U 1 1 61BFAFDE
 P 4950 2100
 F 0 "#PWR0106" H 4950 1850 50  0001 C CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 1650 1900 2100
 $Comp
-L user:MSS6122-104MLC L2
+L uSDX_Transceiver_SMD-rescue:MSS6122-104MLC-user L2
 U 1 1 61C03B7B
 P 21200 2300
 F 0 "L2" V 21385 2300 50  0000 C CNN
@@ -208,7 +208,7 @@ F 3 "" H 21100 2350 50  0001 C CNN
 $EndComp
 Connection ~ 4950 1450
 $Comp
-L Device:C C32
+L uSDX_Transceiver_SMD-rescue:C-Device C32
 U 1 1 61C04AA6
 P 21550 2650
 F 0 "C32" H 21665 2696 50  0000 L CNN
@@ -221,7 +221,7 @@ $EndComp
 Wire Wire Line
 	21550 2500 21550 2300
 $Comp
-L power:GND #PWR0107
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0107
 U 1 1 61C05FC3
 P 21550 2950
 F 0 "#PWR0107" H 21550 2700 50  0001 C CNN
@@ -234,7 +234,7 @@ $EndComp
 Wire Wire Line
 	21550 2950 21550 2800
 $Comp
-L SamacSys_Parts:UCQ1C100MCL1GB C33
+L uSDX_Transceiver_SMD-rescue:UCQ1C100MCL1GB-SamacSys_Parts C33
 U 1 1 61C06C62
 P 22050 2400
 F 0 "C33" V 22254 2530 50  0000 L CNN
@@ -255,7 +255,7 @@ $EndComp
 Wire Wire Line
 	22050 2300 21550 2300
 $Comp
-L power:GND #PWR0108
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0108
 U 1 1 61C08D3A
 P 22050 2950
 F 0 "#PWR0108" H 22050 2700 50  0001 C CNN
@@ -266,7 +266,7 @@ F 3 "" H 22050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0109
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0109
 U 1 1 61C09887
 P 4950 1350
 F 0 "#PWR0109" H 4950 1200 50  0001 C CNN
@@ -277,7 +277,7 @@ F 3 "" H 4950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0110
+L uSDX_Transceiver_SMD-rescue:+12V-power #PWR0110
 U 1 1 61C0E8EA
 P 2550 1250
 F 0 "#PWR0110" H 2550 1100 50  0001 C CNN
@@ -293,7 +293,7 @@ Connection ~ 2550 1450
 Wire Wire Line
 	2550 1450 2500 1450
 $Comp
-L SamacSys_Parts:SI5351A-B-GTR IC1
+L uSDX_Transceiver_SMD-rescue:SI5351A-B-GTR-SamacSys_Parts IC1
 U 1 1 61C10D22
 P 2600 4700
 F 0 "IC1" H 3300 4050 50  0000 C CNN
@@ -312,7 +312,7 @@ F 11 "https://www.arrow.com/en/products/si5351a-b-gtr/skyworks-solutions?region=
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:1N4148W_R2_00001 D2
+L uSDX_Transceiver_SMD-rescue:1N4148W_R2_00001-SamacSys_Parts D2
 U 1 1 61C11D0B
 P 3100 3900
 F 0 "D2" V 3396 3820 50  0000 R CNN
@@ -331,7 +331,7 @@ F 11 "" H 3550 3000 50  0001 L CNN "Arrow Price/Stock"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SamacSys_Parts:1N4148W_R2_00001 D3
+L uSDX_Transceiver_SMD-rescue:1N4148W_R2_00001-SamacSys_Parts D3
 U 1 1 61C12433
 P 3100 4300
 F 0 "D3" V 3396 4220 50  0000 R CNN
@@ -350,7 +350,7 @@ F 11 "" H 3550 3400 50  0001 L CNN "Arrow Price/Stock"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L uSDX_Transceiver_SMD-rescue:C-Device C4
 U 1 1 61C133DF
 P 3500 4350
 F 0 "C4" V 3650 4200 50  0000 L CNN
@@ -361,7 +361,7 @@ F 3 "~" H 3500 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Crystal Y1
+L uSDX_Transceiver_SMD-rescue:Crystal-Device Y1
 U 1 1 61C14703
 P 2350 4700
 F 0 "Y1" H 2350 4968 50  0000 C CNN
@@ -377,7 +377,7 @@ Wire Wire Line
 	3350 4350 3200 4350
 Connection ~ 3200 4350
 $Comp
-L power:GND #PWR0111
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0111
 U 1 1 61C181C6
 P 3750 4400
 F 0 "#PWR0111" H 3750 4150 50  0001 C CNN
@@ -399,7 +399,7 @@ Connection ~ 3100 4350
 Wire Wire Line
 	3100 3800 3100 3900
 $Comp
-L power:+5V #PWR0112
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0112
 U 1 1 61C2A3EA
 P 3100 3400
 F 0 "#PWR0112" H 3100 3250 50  0001 C CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 1450 4400 1450
 $Comp
-L power:GND #PWR0113
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0113
 U 1 1 61C35675
 P 3150 5400
 F 0 "#PWR0113" H 3150 5150 50  0001 C CNN
@@ -459,7 +459,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 4800 3600 4800
 $Comp
-L Device:R R2
+L uSDX_Transceiver_SMD-rescue:R-Device R2
 U 1 1 61C398DC
 P 1800 4750
 F 0 "R2" H 1870 4796 50  0000 L CNN
@@ -470,7 +470,7 @@ F 3 "~" H 1800 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L uSDX_Transceiver_SMD-rescue:R-Device R1
 U 1 1 61C3C52A
 P 1500 4750
 F 0 "R1" H 1570 4796 50  0000 L CNN
@@ -515,7 +515,7 @@ Wire Wire Line
 	1800 5200 1800 5000
 Connection ~ 1800 5000
 $Comp
-L SamacSys_Parts:FST3253MTCX IC3
+L uSDX_Transceiver_SMD-rescue:FST3253MTCX-SamacSys_Parts IC3
 U 1 1 61C43A3E
 P 5650 4250
 F 0 "IC3" H 6450 3300 50  0000 C CNN
@@ -534,7 +534,7 @@ F 11 "https://www.arrow.com/en/products/fst3253mtcx/on-semiconductor?region=nac"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0114
 U 1 1 61C4806F
 P 6200 5250
 F 0 "#PWR0114" H 6200 5000 50  0001 C CNN
@@ -547,7 +547,7 @@ $EndComp
 Wire Wire Line
 	5750 5000 5700 5000
 $Comp
-L power:+5V #PWR0115
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0115
 U 1 1 61C4B0A7
 P 5600 4900
 F 0 "#PWR0115" H 5600 4750 50  0001 C CNN
@@ -568,7 +568,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4600 5600 4600
 $Comp
-L Device:C C10
+L uSDX_Transceiver_SMD-rescue:C-Device C10
 U 1 1 61C5038A
 P 5050 4350
 F 0 "C10" H 5165 4396 50  0000 L CNN
@@ -579,7 +579,7 @@ F 3 "~" H 5050 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0116
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0116
 U 1 1 61C53A42
 P 5650 4250
 F 0 "#PWR0116" H 5650 4000 50  0001 C CNN
@@ -596,7 +596,7 @@ F_IN
 Wire Wire Line
 	4750 4350 4900 4350
 $Comp
-L Device:R R6
+L uSDX_Transceiver_SMD-rescue:R-Device R6
 U 1 1 61C58DF6
 P 5350 3700
 F 0 "R6" H 5420 3746 50  0000 L CNN
@@ -607,7 +607,7 @@ F 3 "~" H 5350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L uSDX_Transceiver_SMD-rescue:R-Device R5
 U 1 1 61C59D93
 P 5050 3700
 F 0 "R5" H 5120 3746 50  0000 L CNN
@@ -618,7 +618,7 @@ F 3 "~" H 5050 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L uSDX_Transceiver_SMD-rescue:R-Device R4
 U 1 1 61C5A229
 P 5050 3250
 F 0 "R4" H 5120 3296 50  0000 L CNN
@@ -629,7 +629,7 @@ F 3 "~" H 5050 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L uSDX_Transceiver_SMD-rescue:C-Device C8
 U 1 1 61C5ABAA
 P 4600 3700
 F 0 "C8" H 4715 3746 50  0000 L CNN
@@ -640,7 +640,7 @@ F 3 "~" H 4600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0117
 U 1 1 61C5E36C
 P 4600 3950
 F 0 "#PWR0117" H 4600 3700 50  0001 C CNN
@@ -651,7 +651,7 @@ F 3 "" H 4600 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0118
 U 1 1 61C5E6BA
 P 5050 3950
 F 0 "#PWR0118" H 5050 3700 50  0001 C CNN
@@ -662,7 +662,7 @@ F 3 "" H 5050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0119
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0119
 U 1 1 61C5E936
 P 5050 3000
 F 0 "#PWR0119" H 5050 2850 50  0001 C CNN
@@ -727,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 5150 6200 5250
 $Comp
-L power:GND #PWR0120
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0120
 U 1 1 61C8A3BC
 P 5700 5250
 F 0 "#PWR0120" H 5700 5000 50  0001 C CNN
@@ -740,7 +740,7 @@ $EndComp
 Wire Wire Line
 	5700 5000 5700 5250
 $Comp
-L power:+5V #PWR0121
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0121
 U 1 1 61C8C920
 P 6200 3700
 F 0 "#PWR0121" H 6200 3550 50  0001 C CNN
@@ -753,7 +753,7 @@ $EndComp
 Wire Wire Line
 	6200 3700 6200 3800
 $Comp
-L Device:C C12
+L uSDX_Transceiver_SMD-rescue:C-Device C12
 U 1 1 61C8F242
 P 6500 3800
 F 0 "C12" V 6250 3750 50  0000 L CNN
@@ -769,7 +769,7 @@ Connection ~ 6200 3800
 Wire Wire Line
 	6200 3800 6200 4050
 $Comp
-L power:GND #PWR0122
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0122
 U 1 1 61C91DFE
 P 6800 3850
 F 0 "#PWR0122" H 6800 3600 50  0001 C CNN
@@ -784,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 3800 6800 3850
 $Comp
-L SamacSys_Parts:STX-3150-3C-1 J3
+L uSDX_Transceiver_SMD-rescue:STX-3150-3C-1-SamacSys_Parts J3
 U 1 1 61C95490
 P 5250 1100
 F 0 "J3" H 5250 1600 50  0000 C CNN
@@ -803,7 +803,7 @@ F 11 "" H 5900 300 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0123
 U 1 1 61C9AD16
 P 5700 1100
 F 0 "#PWR0123" H 5700 850 50  0001 C CNN
@@ -818,7 +818,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 1050 5700 1100
 $Comp
-L SamacSys_Parts:UCQ1C100MCL1GB C11
+L uSDX_Transceiver_SMD-rescue:UCQ1C100MCL1GB-SamacSys_Parts C11
 U 1 1 61C9D7C8
 P 6300 900
 F 0 "C11" H 6550 1100 50  0000 L CNN
@@ -860,7 +860,7 @@ Connection ~ 5700 900
 Wire Wire Line
 	5700 900  5700 950 
 $Comp
-L Device:R R7
+L uSDX_Transceiver_SMD-rescue:R-Device R7
 U 1 1 61CB7F0B
 P 6500 900
 F 0 "R7" V 6293 900 50  0000 C CNN
@@ -877,7 +877,7 @@ HP_OUT
 Wire Wire Line
 	6800 900  6650 900 
 $Comp
-L power:GND #PWR0124
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0124
 U 1 1 61CBE711
 P 8350 2600
 F 0 "#PWR0124" H 8350 2350 50  0001 C CNN
@@ -888,7 +888,7 @@ F 3 "" H 8350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L uSDX_Transceiver_SMD-rescue:C-Device C16
 U 1 1 61CC163E
 P 9600 1600
 F 0 "C16" V 9750 1550 50  0000 L CNN
@@ -899,7 +899,7 @@ F 3 "~" H 9600 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C15
+L uSDX_Transceiver_SMD-rescue:C-Device C15
 U 1 1 61CC1D79
 P 9250 2100
 F 0 "C15" H 9000 2100 50  0000 L CNN
@@ -910,7 +910,7 @@ F 3 "~" H 9250 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R12
+L uSDX_Transceiver_SMD-rescue:R-Device R12
 U 1 1 61CC2F4A
 P 10050 1950
 F 0 "R12" H 10120 1996 50  0000 L CNN
@@ -921,7 +921,7 @@ F 3 "~" H 10050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L uSDX_Transceiver_SMD-rescue:R-Device R13
 U 1 1 61CC3D25
 P 10050 2400
 F 0 "R13" H 10120 2446 50  0000 L CNN
@@ -932,7 +932,7 @@ F 3 "~" H 10050 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L uSDX_Transceiver_SMD-rescue:R-Device R11
 U 1 1 61CC3F6A
 P 9250 1150
 F 0 "R11" H 9320 1196 50  0000 L CNN
@@ -959,7 +959,7 @@ Connection ~ 10050 2200
 Wire Wire Line
 	10050 2200 10050 2250
 $Comp
-L power:GND #PWR0125
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0125
 U 1 1 61CDD07C
 P 9250 2600
 F 0 "#PWR0125" H 9250 2350 50  0001 C CNN
@@ -970,7 +970,7 @@ F 3 "" H 9250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0126
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0126
 U 1 1 61CDD395
 P 10050 2600
 F 0 "#PWR0126" H 10050 2350 50  0001 C CNN
@@ -1007,7 +1007,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 1750 10050 1800
 $Comp
-L user:RC1602A U2
+L uSDX_Transceiver_SMD-rescue:RC1602A-user U2
 U 1 1 61C12212
 P 12150 1350
 F 0 "U2" H 12350 350 50  0000 C CNN
@@ -1018,7 +1018,7 @@ F 3 "" H 12150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0127
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0127
 U 1 1 61C12EAB
 P 12150 950
 F 0 "#PWR0127" H 12150 800 50  0001 C CNN
@@ -1031,7 +1031,7 @@ $EndComp
 Wire Wire Line
 	12150 950  12150 1000
 $Comp
-L power:GND #PWR0128
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0128
 U 1 1 61C16F71
 P 12150 2450
 F 0 "#PWR0128" H 12150 2200 50  0001 C CNN
@@ -1044,7 +1044,7 @@ $EndComp
 Wire Wire Line
 	12150 2450 12150 2350
 $Comp
-L power:+5V #PWR0129
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0129
 U 1 1 61C1AB8E
 P 12700 2000
 F 0 "#PWR0129" H 12700 1850 50  0001 C CNN
@@ -1055,7 +1055,7 @@ F 3 "" H 12700 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0130
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0130
 U 1 1 61C1B1BB
 P 12700 1900
 F 0 "#PWR0130" H 12700 1650 50  0001 C CNN
@@ -1074,7 +1074,7 @@ NoConn ~ 11700 1600
 NoConn ~ 11700 1700
 NoConn ~ 11700 1800
 $Comp
-L power:GND #PWR0131
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0131
 U 1 1 61C2F8BD
 P 11550 1300
 F 0 "#PWR0131" H 11550 1050 50  0001 C CNN
@@ -1111,7 +1111,7 @@ Wire Wire Line
 Wire Wire Line
 	11700 1900 11500 1900
 $Comp
-L Device:R_Potentiometer_Trim RV1
+L uSDX_Transceiver_SMD-rescue:R_Potentiometer_Trim-Device RV1
 U 1 1 61C4C633
 P 13250 1350
 F 0 "RV1" H 13180 1396 50  0000 R CNN
@@ -1131,7 +1131,7 @@ Connection ~ 12150 1000
 Wire Wire Line
 	12150 1000 12150 1050
 $Comp
-L Device:C C26
+L uSDX_Transceiver_SMD-rescue:C-Device C26
 U 1 1 61C591B2
 P 13800 1350
 F 0 "C26" H 13600 1300 50  0000 L CNN
@@ -1147,7 +1147,7 @@ Wire Wire Line
 	13800 1000 13800 1200
 Connection ~ 13250 1000
 $Comp
-L power:GND #PWR0132
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0132
 U 1 1 61C6A7FB
 P 13250 2100
 F 0 "#PWR0132" H 13250 1850 50  0001 C CNN
@@ -1158,7 +1158,7 @@ F 3 "" H 13250 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0133
 U 1 1 61C6AC3D
 P 13800 1600
 F 0 "#PWR0133" H 13800 1350 50  0001 C CNN
@@ -1190,7 +1190,7 @@ Wire Wire Line
 Text GLabel 20450 3750 2    50   Output ~ 0
 PB5
 $Comp
-L Device:Crystal Y2
+L uSDX_Transceiver_SMD-rescue:Crystal-Device Y2
 U 1 1 61CA7442
 P 17150 3850
 F 0 "Y2" H 17150 4118 50  0000 C CNN
@@ -1201,7 +1201,7 @@ F 3 "~" H 17150 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SamacSys_Parts:ATMEGA328P-ANR IC5
+L uSDX_Transceiver_SMD-rescue:ATMEGA328P-ANR-SamacSys_Parts IC5
 U 1 1 61CD0CB7
 P 17500 3050
 F 0 "IC5" H 20150 3650 50  0000 L CNN
@@ -1240,7 +1240,7 @@ AREF
 Wire Wire Line
 	20300 3450 20450 3450
 $Comp
-L power:GND #PWR0134
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0134
 U 1 1 61D3E891
 P 20450 3350
 F 0 "#PWR0134" H 20450 3100 50  0001 C CNN
@@ -1253,7 +1253,7 @@ $EndComp
 Wire Wire Line
 	20450 3350 20300 3350
 $Comp
-L power:GND #PWR0135
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0135
 U 1 1 61D45443
 P 17350 3450
 F 0 "#PWR0135" H 17350 3200 50  0001 C CNN
@@ -1264,7 +1264,7 @@ F 3 "" H 17350 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0136
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0136
 U 1 1 61D469E0
 P 17350 3250
 F 0 "#PWR0136" H 17350 3000 50  0001 C CNN
@@ -1279,7 +1279,7 @@ Wire Wire Line
 Wire Wire Line
 	17500 3450 17350 3450
 $Comp
-L power:+5V #PWR0137
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0137
 U 1 1 61D52C0A
 P 20950 2250
 F 0 "#PWR0137" H 20950 2100 50  0001 C CNN
@@ -1290,7 +1290,7 @@ F 3 "" H 20950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L user:MSS6122-104MLC L1
+L uSDX_Transceiver_SMD-rescue:MSS6122-104MLC-user L1
 U 1 1 61D61A81
 P 21550 3650
 F 0 "L1" V 21735 3650 50  0000 C CNN
@@ -1301,7 +1301,7 @@ F 3 "" H 21450 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C31
+L uSDX_Transceiver_SMD-rescue:C-Device C31
 U 1 1 61D68C7A
 P 21350 3900
 F 0 "C31" H 21500 4000 50  0000 L CNN
@@ -1321,7 +1321,7 @@ Connection ~ 21350 3650
 Wire Wire Line
 	21350 3650 21450 3650
 $Comp
-L power:GND #PWR0140
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0140
 U 1 1 61DFF041
 P 21350 4150
 F 0 "#PWR0140" H 21350 3900 50  0001 C CNN
@@ -1363,7 +1363,7 @@ Wire Wire Line
 	18700 5500 18700 5350
 NoConn ~ 18500 5350
 $Comp
-L Device:RotaryEncoder_Switch SW1
+L uSDX_Transceiver_SMD-rescue:RotaryEncoder_Switch-Device SW1
 U 1 1 61C2C02B
 P 21500 7350
 F 0 "SW1" V 21454 7580 50  0000 L CNN
@@ -1374,7 +1374,7 @@ F 3 "~" H 21500 7610 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SamacSys_Parts:PTS125SM122LFS S2
+L uSDX_Transceiver_SMD-rescue:PTS125SM122LFS-SamacSys_Parts S2
 U 1 1 61C31E18
 P 20750 8100
 F 0 "S2" V 20704 8238 50  0000 L CNN
@@ -1393,7 +1393,7 @@ F 11 "https://www.arrow.com/en/products/pts125sm122lfs/ck" H 21800 7300 50  0001
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R26
+L uSDX_Transceiver_SMD-rescue:R-Device R26
 U 1 1 61C3C200
 P 20750 8650
 F 0 "R26" H 20820 8696 50  0000 L CNN
@@ -1404,7 +1404,7 @@ F 3 "~" H 20750 8650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L SamacSys_Parts:PTS125SM122LFS S1
+L uSDX_Transceiver_SMD-rescue:PTS125SM122LFS-SamacSys_Parts S1
 U 1 1 61C3F786
 P 20050 8100
 F 0 "S1" V 20004 8238 50  0000 L CNN
@@ -1423,7 +1423,7 @@ F 11 "https://www.arrow.com/en/products/pts125sm122lfs/ck" H 21100 7300 50  0001
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R25
+L uSDX_Transceiver_SMD-rescue:R-Device R25
 U 1 1 61C40626
 P 20050 8650
 F 0 "R25" H 20120 8696 50  0000 L CNN
@@ -1444,7 +1444,7 @@ Wire Wire Line
 Wire Wire Line
 	20050 7800 20050 7850
 $Comp
-L power:+5V #PWR0141
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0141
 U 1 1 61C742A7
 P 21950 7750
 F 0 "#PWR0141" H 21950 7600 50  0001 C CNN
@@ -1455,7 +1455,7 @@ F 3 "" H 21950 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L uSDX_Transceiver_SMD-rescue:R-Device R28
 U 1 1 61C7D211
 P 21400 8100
 F 0 "R28" H 21250 8150 50  0000 L CNN
@@ -1468,7 +1468,7 @@ $EndComp
 Wire Wire Line
 	21400 7950 21400 7800
 $Comp
-L power:GND #PWR0142
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0142
 U 1 1 61C85478
 P 21400 8350
 F 0 "#PWR0142" H 21400 8100 50  0001 C CNN
@@ -1518,7 +1518,7 @@ Wire Wire Line
 Wire Wire Line
 	21400 7050 21400 6850
 $Comp
-L power:GND #PWR0143
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0143
 U 1 1 61CDAAFA
 P 21500 6850
 F 0 "#PWR0143" H 21500 6600 50  0001 C CNN
@@ -1531,7 +1531,7 @@ $EndComp
 Wire Wire Line
 	21500 7050 21500 6850
 $Comp
-L user:LM4562 U3
+L uSDX_Transceiver_SMD-rescue:LM4562-user U3
 U 1 1 61D04BC2
 P 12700 6400
 F 0 "U3" H 12550 6715 50  0000 C CNN
@@ -1542,7 +1542,7 @@ F 3 "" H 12700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L user:LM4562 U3
+L uSDX_Transceiver_SMD-rescue:LM4562-user U3
 U 2 1 61D0600C
 P 12700 4750
 F 0 "U3" H 12550 5065 50  0000 C CNN
@@ -1553,7 +1553,7 @@ F 3 "" H 12700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L user:LM4562 U3
+L uSDX_Transceiver_SMD-rescue:LM4562-user U3
 U 3 1 61D06E16
 P 12850 7350
 F 0 "U3" H 12928 7421 50  0000 L CNN
@@ -1564,7 +1564,7 @@ F 3 "" H 12850 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R16
+L uSDX_Transceiver_SMD-rescue:R-Device R16
 U 1 1 61D10D65
 P 11850 6300
 F 0 "R16" V 11650 6250 50  0000 L CNN
@@ -1575,7 +1575,7 @@ F 3 "~" H 11850 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R17
+L uSDX_Transceiver_SMD-rescue:R-Device R17
 U 1 1 61D1307F
 P 11850 6500
 F 0 "R17" V 12050 6450 50  0000 L CNN
@@ -1590,7 +1590,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 6300 12150 6300
 $Comp
-L Device:C C20
+L uSDX_Transceiver_SMD-rescue:C-Device C20
 U 1 1 61D2507D
 P 11600 6800
 F 0 "C20" H 11715 6846 50  0000 L CNN
@@ -1601,7 +1601,7 @@ F 3 "~" H 11600 6800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C18
+L uSDX_Transceiver_SMD-rescue:C-Device C18
 U 1 1 61D2626C
 P 11100 6800
 F 0 "C18" H 11215 6846 50  0000 L CNN
@@ -1620,7 +1620,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 6300 11100 6650
 $Comp
-L Device:R R19
+L uSDX_Transceiver_SMD-rescue:R-Device R19
 U 1 1 61D456C5
 P 12550 5900
 F 0 "R19" V 12350 5850 50  0000 L CNN
@@ -1631,7 +1631,7 @@ F 3 "~" H 12550 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C23
+L uSDX_Transceiver_SMD-rescue:C-Device C23
 U 1 1 61D45D32
 P 12550 5500
 F 0 "C23" V 12800 5450 50  0000 L CNN
@@ -1673,7 +1673,7 @@ Connection ~ 12750 5700
 Wire Wire Line
 	12750 5700 12750 5900
 $Comp
-L power:GND #PWR0144
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0144
 U 1 1 61DAF087
 P 11600 7050
 F 0 "#PWR0144" H 11600 6800 50  0001 C CNN
@@ -1686,7 +1686,7 @@ $EndComp
 Wire Wire Line
 	11600 7050 11600 6950
 $Comp
-L power:GND #PWR0145
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0145
 U 1 1 61DBA70E
 P 11100 7050
 F 0 "#PWR0145" H 11100 6800 50  0001 C CNN
@@ -1709,7 +1709,7 @@ Wire Wire Line
 	11100 6300 10650 6300
 Connection ~ 11100 6300
 $Comp
-L Device:R R14
+L uSDX_Transceiver_SMD-rescue:R-Device R14
 U 1 1 61DEFE52
 P 11850 4650
 F 0 "R14" V 11650 4600 50  0000 L CNN
@@ -1720,7 +1720,7 @@ F 3 "~" H 11850 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R15
+L uSDX_Transceiver_SMD-rescue:R-Device R15
 U 1 1 61DEFE58
 P 11850 4850
 F 0 "R15" V 12050 4800 50  0000 L CNN
@@ -1731,7 +1731,7 @@ F 3 "~" H 11850 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C19
+L uSDX_Transceiver_SMD-rescue:C-Device C19
 U 1 1 61DEFE5E
 P 11600 5150
 F 0 "C19" H 11715 5196 50  0000 L CNN
@@ -1742,7 +1742,7 @@ F 3 "~" H 11600 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C17
+L uSDX_Transceiver_SMD-rescue:C-Device C17
 U 1 1 61DEFE64
 P 11100 5150
 F 0 "C17" H 11215 5196 50  0000 L CNN
@@ -1761,7 +1761,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 4650 11100 5000
 $Comp
-L power:GND #PWR0146
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0146
 U 1 1 61DEFE6E
 P 11600 5400
 F 0 "#PWR0146" H 11600 5150 50  0001 C CNN
@@ -1774,7 +1774,7 @@ $EndComp
 Wire Wire Line
 	11600 5400 11600 5300
 $Comp
-L power:GND #PWR0147
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0147
 U 1 1 61DEFE75
 P 11100 5400
 F 0 "#PWR0147" H 11100 5150 50  0001 C CNN
@@ -1801,7 +1801,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 4850 12000 4850
 $Comp
-L Device:R R18
+L uSDX_Transceiver_SMD-rescue:R-Device R18
 U 1 1 61E25E7A
 P 12550 4250
 F 0 "R18" V 12350 4200 50  0000 L CNN
@@ -1812,7 +1812,7 @@ F 3 "~" H 12550 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C22
+L uSDX_Transceiver_SMD-rescue:C-Device C22
 U 1 1 61E25E80
 P 12550 3850
 F 0 "C22" V 12800 3800 50  0000 L CNN
@@ -1854,7 +1854,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 4750 12800 4750
 $Comp
-L power:GND #PWR0148
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0148
 U 1 1 61E522A6
 P 12850 7700
 F 0 "#PWR0148" H 12850 7450 50  0001 C CNN
@@ -1867,7 +1867,7 @@ $EndComp
 Wire Wire Line
 	12850 7700 12850 7600
 $Comp
-L power:+12V #PWR0149
+L uSDX_Transceiver_SMD-rescue:+12V-power #PWR0149
 U 1 1 61E613DA
 P 12850 6950
 F 0 "#PWR0149" H 12850 6800 50  0001 C CNN
@@ -1880,7 +1880,7 @@ $EndComp
 Wire Wire Line
 	12850 6950 12850 7000
 $Comp
-L Device:C C21
+L uSDX_Transceiver_SMD-rescue:C-Device C21
 U 1 1 61E716C5
 P 12500 7350
 F 0 "C21" H 12615 7396 50  0000 L CNN
@@ -1898,7 +1898,7 @@ Connection ~ 12850 7000
 Wire Wire Line
 	12850 7000 12850 7050
 $Comp
-L power:GND #PWR0150
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0150
 U 1 1 61E8153D
 P 12500 7700
 F 0 "#PWR0150" H 12500 7450 50  0001 C CNN
@@ -1911,7 +1911,7 @@ $EndComp
 Wire Wire Line
 	12500 7700 12500 7500
 $Comp
-L Device:C C25
+L uSDX_Transceiver_SMD-rescue:C-Device C25
 U 1 1 61EA1FA4
 P 13300 6400
 F 0 "C25" H 13415 6446 50  0000 L CNN
@@ -1922,7 +1922,7 @@ F 3 "~" H 13300 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C24
+L uSDX_Transceiver_SMD-rescue:C-Device C24
 U 1 1 61EA2931
 P 13300 4750
 F 0 "C24" H 13415 4796 50  0000 L CNN
@@ -1939,7 +1939,7 @@ Wire Wire Line
 	13150 6400 12950 6400
 Connection ~ 12950 6400
 $Comp
-L Device:R R23
+L uSDX_Transceiver_SMD-rescue:R-Device R23
 U 1 1 61EC35D1
 P 13650 6050
 F 0 "R23" H 13450 6050 50  0000 L CNN
@@ -1950,7 +1950,7 @@ F 3 "~" H 13650 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R24
+L uSDX_Transceiver_SMD-rescue:R-Device R24
 U 1 1 61EC439F
 P 13650 6750
 F 0 "R24" H 13450 6750 50  0000 L CNN
@@ -1968,7 +1968,7 @@ Connection ~ 13650 6400
 Wire Wire Line
 	13650 6400 13650 6200
 $Comp
-L power:GND #PWR0151
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0151
 U 1 1 61EE51A5
 P 13650 7000
 F 0 "#PWR0151" H 13650 6750 50  0001 C CNN
@@ -1985,7 +1985,7 @@ Q
 Wire Wire Line
 	13800 6400 13650 6400
 $Comp
-L Device:R R21
+L uSDX_Transceiver_SMD-rescue:R-Device R21
 U 1 1 61F08253
 P 13650 4400
 F 0 "R21" H 13450 4400 50  0000 L CNN
@@ -1996,7 +1996,7 @@ F 3 "~" H 13650 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R22
+L uSDX_Transceiver_SMD-rescue:R-Device R22
 U 1 1 61F08259
 P 13650 5100
 F 0 "R22" H 13450 5100 50  0000 L CNN
@@ -2014,7 +2014,7 @@ Connection ~ 13650 4750
 Wire Wire Line
 	13650 4750 13650 4550
 $Comp
-L power:GND #PWR0152
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0152
 U 1 1 61F08263
 P 13650 5350
 F 0 "#PWR0152" H 13650 5100 50  0001 C CNN
@@ -2039,7 +2039,7 @@ AREF
 Wire Wire Line
 	13650 5800 13650 5900
 $Comp
-L Device:C C27
+L uSDX_Transceiver_SMD-rescue:C-Device C27
 U 1 1 61F3BC77
 P 14400 5500
 F 0 "C27" H 14515 5546 50  0000 L CNN
@@ -2052,7 +2052,7 @@ $EndComp
 Text GLabel 14550 5250 1    50   UnSpc ~ 0
 AREF
 $Comp
-L power:GND #PWR0153
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0153
 U 1 1 61F3C3E5
 P 14400 5750
 F 0 "#PWR0153" H 14400 5500 50  0001 C CNN
@@ -2063,7 +2063,7 @@ F 3 "" H 14400 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:MC74AC00DR2G IC4
+L uSDX_Transceiver_SMD-rescue:MC74AC00DR2G-SamacSys_Parts IC4
 U 1 1 6205922D
 P 16550 8050
 F 0 "IC4" H 17050 8315 50  0000 C CNN
@@ -2082,7 +2082,7 @@ F 11 "https://www.arrow.com/en/products/mc74ac00dr2g/on-semiconductor" H 17400 7
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0154
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0154
 U 1 1 6205A111
 P 16500 8700
 F 0 "#PWR0154" H 16500 8450 50  0001 C CNN
@@ -2097,7 +2097,7 @@ Wire Wire Line
 Wire Wire Line
 	16500 8650 16550 8650
 $Comp
-L power:+5V #PWR0155
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0155
 U 1 1 6206BE8B
 P 17600 7650
 F 0 "#PWR0155" H 17600 7500 50  0001 C CNN
@@ -2118,7 +2118,7 @@ Wire Wire Line
 Wire Wire Line
 	17600 8150 17600 8200
 $Comp
-L power:+5V #PWR0156
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0156
 U 1 1 6208F9E2
 P 17650 8200
 F 0 "#PWR0156" H 17650 8050 50  0001 C CNN
@@ -2173,7 +2173,7 @@ CLK2
 Wire Wire Line
 	16250 8050 16550 8050
 $Comp
-L Device:C C28
+L uSDX_Transceiver_SMD-rescue:C-Device C28
 U 1 1 61C94227
 P 15950 8550
 F 0 "C28" V 16200 8500 50  0000 L CNN
@@ -2190,7 +2190,7 @@ CTRL_OUT
 Wire Wire Line
 	15600 8550 15700 8550
 $Comp
-L Device:C C30
+L uSDX_Transceiver_SMD-rescue:C-Device C30
 U 1 1 61CC0B6C
 P 18050 7900
 F 0 "C30" H 18165 7946 50  0000 L CNN
@@ -2208,7 +2208,7 @@ Connection ~ 17600 7700
 Wire Wire Line
 	17600 7700 17600 8050
 $Comp
-L power:GND #PWR0157
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0157
 U 1 1 61CFDD72
 P 18050 8150
 F 0 "#PWR0157" H 18050 7900 50  0001 C CNN
@@ -2221,7 +2221,7 @@ $EndComp
 Wire Wire Line
 	18050 8150 18050 8050
 $Comp
-L Device:Q_NMOS_DGS Q1
+L uSDX_Transceiver_SMD-rescue:Q_NMOS_DGS-Device Q1
 U 1 1 61D158EB
 P 4150 6600
 F 0 "Q1" H 4355 6554 50  0000 L CNN
@@ -2232,7 +2232,7 @@ F 3 "~" H 4150 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R3
+L uSDX_Transceiver_SMD-rescue:R-Device R3
 U 1 1 61D3F915
 P 3400 6700
 F 0 "R3" H 3470 6746 50  0000 L CNN
@@ -2249,7 +2249,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6350 3400 6550
 $Comp
-L power:GND #PWR0158
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0158
 U 1 1 61D56824
 P 3400 7000
 F 0 "#PWR0158" H 3400 6750 50  0001 C CNN
@@ -2264,7 +2264,7 @@ Wire Wire Line
 Text GLabel 2500 6350 0    50   Output ~ 0
 F_IN
 $Comp
-L Device:C C7
+L uSDX_Transceiver_SMD-rescue:C-Device C7
 U 1 1 61D82E55
 P 4500 6800
 F 0 "C7" H 4615 6846 50  0000 L CNN
@@ -2279,7 +2279,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 6600 4350 6600
 $Comp
-L power:GND #PWR0159
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0159
 U 1 1 61DAF86A
 P 4500 7000
 F 0 "#PWR0159" H 4500 6750 50  0001 C CNN
@@ -2292,7 +2292,7 @@ $EndComp
 Wire Wire Line
 	4500 7000 4500 6950
 $Comp
-L Device:Q_NMOS_DGS Q2
+L uSDX_Transceiver_SMD-rescue:Q_NMOS_DGS-Device Q2
 U 1 1 61DF77E6
 P 6600 7050
 F 0 "Q2" H 6805 7004 50  0000 L CNN
@@ -2303,7 +2303,7 @@ F 3 "~" H 6600 7050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q3
+L uSDX_Transceiver_SMD-rescue:Q_NMOS_DGS-Device Q3
 U 1 1 61DF8A13
 P 6600 7700
 F 0 "Q3" H 6805 7654 50  0000 L CNN
@@ -2314,7 +2314,7 @@ F 3 "~" H 6600 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q4
+L uSDX_Transceiver_SMD-rescue:Q_NMOS_DGS-Device Q4
 U 1 1 61E10210
 P 6600 8350
 F 0 "Q4" H 6805 8304 50  0000 L CNN
@@ -2325,7 +2325,7 @@ F 3 "~" H 6600 8350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R10
+L uSDX_Transceiver_SMD-rescue:R-Device R10
 U 1 1 61E12953
 P 8200 6500
 F 0 "R10" V 8400 6450 50  0000 L CNN
@@ -2336,7 +2336,7 @@ F 3 "~" H 8200 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C13
+L uSDX_Transceiver_SMD-rescue:C-Device C13
 U 1 1 61E12E3D
 P 7900 6850
 F 0 "C13" H 8015 6896 50  0000 L CNN
@@ -2366,7 +2366,7 @@ Wire Wire Line
 Text GLabel 7000 6050 1    50   Input ~ 0
 CTRL_OUT
 $Comp
-L power:GND #PWR0160
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0160
 U 1 1 61EE96EB
 P 7900 7100
 F 0 "#PWR0160" H 7900 6850 50  0001 C CNN
@@ -2413,7 +2413,7 @@ Wire Wire Line
 	6500 8600 6500 8550
 Connection ~ 5850 7950
 $Comp
-L power:GND #PWR0162
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0162
 U 1 1 61FA83C4
 P 5850 8750
 F 0 "#PWR0162" H 5850 8500 50  0001 C CNN
@@ -2427,7 +2427,7 @@ Wire Wire Line
 	5850 8750 5850 8600
 Connection ~ 5850 8600
 $Comp
-L power:GND #PWR0164
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0164
 U 1 1 621336C5
 P 3650 8500
 F 0 "#PWR0164" H 3650 8250 50  0001 C CNN
@@ -2440,7 +2440,7 @@ $EndComp
 Wire Wire Line
 	3550 8300 3650 8300
 $Comp
-L SamacSys_Parts:CONSMA002-SMD-G-T J2
+L uSDX_Transceiver_SMD-rescue:CONSMA002-SMD-G-T-SamacSys_Parts J2
 U 1 1 6221976F
 P 1450 8150
 F 0 "J2" H 1742 8415 50  0000 C CNN
@@ -2459,7 +2459,7 @@ F 11 "" H 2100 7350 50  0001 L CNN "Arrow Price/Stock"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0166
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0166
 U 1 1 6229FD92
 P 1550 8350
 F 0 "#PWR0166" H 1550 8100 50  0001 C CNN
@@ -2470,7 +2470,7 @@ F 3 "" H 1550 8350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0167
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0167
 U 1 1 622A0448
 P 1550 8150
 F 0 "#PWR0167" H 1550 7900 50  0001 C CNN
@@ -2522,7 +2522,7 @@ Wire Wire Line
 Wire Wire Line
 	19200 1450 19200 1350
 $Comp
-L SamacSys_Parts:PTS125SM122LFS S3
+L uSDX_Transceiver_SMD-rescue:PTS125SM122LFS-SamacSys_Parts S3
 U 1 1 6206F964
 P 21700 1500
 F 0 "S3" H 21650 1800 50  0000 L CNN
@@ -2541,7 +2541,7 @@ F 11 "https://www.arrow.com/en/products/pts125sm122lfs/ck" H 22750 700 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L uSDX_Transceiver_SMD-rescue:R-Device R27
 U 1 1 62096032
 P 21150 1500
 F 0 "R27" V 20950 1450 50  0000 L CNN
@@ -2562,7 +2562,7 @@ Wire Wire Line
 Wire Wire Line
 	21450 1500 21300 1500
 $Comp
-L power:GND #PWR0138
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0138
 U 1 1 621285A3
 P 20950 1600
 F 0 "#PWR0138" H 20950 1350 50  0001 C CNN
@@ -2577,7 +2577,7 @@ Wire Wire Line
 Wire Wire Line
 	20950 1500 21000 1500
 $Comp
-L Device:R R29
+L uSDX_Transceiver_SMD-rescue:R-Device R29
 U 1 1 621BC695
 P 22100 1200
 F 0 "R29" H 21900 1250 50  0000 L CNN
@@ -2593,7 +2593,7 @@ Connection ~ 22100 1500
 Wire Wire Line
 	22100 1500 22250 1500
 $Comp
-L power:+5V #PWR0139
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0139
 U 1 1 621E1996
 P 22100 950
 F 0 "#PWR0139" H 22100 800 50  0001 C CNN
@@ -2606,7 +2606,7 @@ $EndComp
 Wire Wire Line
 	22100 950  22100 1050
 $Comp
-L user:Pin P2
+L uSDX_Transceiver_SMD-rescue:Pin-user P2
 U 1 1 6229F7C7
 P 16150 1050
 F 0 "P2" H 16200 850 50  0000 R CNN
@@ -2617,7 +2617,7 @@ F 3 "" H 16300 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L user:Pin P3
+L uSDX_Transceiver_SMD-rescue:Pin-user P3
 U 1 1 622C4226
 P 16300 1050
 F 0 "P3" H 16350 850 50  0000 R CNN
@@ -2628,7 +2628,7 @@ F 3 "" H 16450 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L user:Pin P4
+L uSDX_Transceiver_SMD-rescue:Pin-user P4
 U 1 1 622C4F5D
 P 16450 1050
 F 0 "P4" H 16500 850 50  0000 R CNN
@@ -2639,7 +2639,7 @@ F 3 "" H 16600 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L user:Pin P5
+L uSDX_Transceiver_SMD-rescue:Pin-user P5
 U 1 1 622C5390
 P 16600 1050
 F 0 "P5" H 16650 850 50  0000 R CNN
@@ -2650,7 +2650,7 @@ F 3 "" H 16750 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L user:Pin P6
+L uSDX_Transceiver_SMD-rescue:Pin-user P6
 U 1 1 622C5695
 P 16750 1050
 F 0 "P6" H 16800 850 50  0000 R CNN
@@ -2661,7 +2661,7 @@ F 3 "" H 16900 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L user:Pin P1
+L uSDX_Transceiver_SMD-rescue:Pin-user P1
 U 1 1 622C5AB4
 P 16000 1050
 F 0 "P1" H 16050 850 50  0000 R CNN
@@ -2672,7 +2672,7 @@ F 3 "" H 16150 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0161
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0161
 U 1 1 622C6F48
 P 16750 1350
 F 0 "#PWR0161" H 16750 1100 50  0001 C CNN
@@ -2685,7 +2685,7 @@ $EndComp
 Wire Wire Line
 	16750 1350 16750 1150
 $Comp
-L Device:C C29
+L uSDX_Transceiver_SMD-rescue:C-Device C29
 U 1 1 622EC086
 P 16000 1450
 F 0 "C29" H 15700 1400 50  0000 L CNN
@@ -2710,7 +2710,7 @@ DB4
 Wire Wire Line
 	16300 1350 16300 1150
 $Comp
-L power:+5V #PWR0163
+L uSDX_Transceiver_SMD-rescue:+5V-power #PWR0163
 U 1 1 623A83E3
 P 16450 1350
 F 0 "#PWR0163" H 16450 1200 50  0001 C CNN
@@ -2739,7 +2739,7 @@ Wire Wire Line
 	4800 6600 4500 6600
 Connection ~ 4500 6600
 $Comp
-L Device:C C2
+L uSDX_Transceiver_SMD-rescue:C-Device C2
 U 1 1 61CCDBB8
 P 2950 6350
 F 0 "C2" V 3200 6300 50  0000 L CNN
@@ -2755,7 +2755,7 @@ Connection ~ 3400 6350
 Wire Wire Line
 	2800 6350 2650 6350
 $Comp
-L Device:C C5
+L uSDX_Transceiver_SMD-rescue:C-Device C5
 U 1 1 61D1CBAE
 P 4050 7350
 F 0 "C5" H 4165 7396 50  0000 L CNN
@@ -2768,7 +2768,7 @@ $EndComp
 Wire Wire Line
 	4050 7200 4050 7000
 $Comp
-L power:+12V #PWR0165
+L uSDX_Transceiver_SMD-rescue:+12V-power #PWR0165
 U 1 1 61E2BE5A
 P 3600 7850
 F 0 "#PWR0165" H 3600 7700 50  0001 C CNN
@@ -2783,7 +2783,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 8000 3550 8000
 $Comp
-L power:GND #PWR0168
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0168
 U 1 1 61EEC99E
 P 2400 8050
 F 0 "#PWR0168" H 2400 7800 50  0001 C CNN
@@ -2825,7 +2825,7 @@ Wire Wire Line
 	3550 8100 5200 8100
 Connection ~ 5500 8100
 $Comp
-L Device:R R9
+L uSDX_Transceiver_SMD-rescue:R-Device R9
 U 1 1 61E11334
 P 7600 6500
 F 0 "R9" V 7800 6450 50  0000 L CNN
@@ -2836,7 +2836,7 @@ F 3 "~" H 7600 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R8
+L uSDX_Transceiver_SMD-rescue:R-Device R8
 U 1 1 6201636A
 P 7000 8650
 F 0 "R8" H 7150 8600 50  0000 L CNN
@@ -2850,7 +2850,7 @@ Wire Wire Line
 	7000 8500 7000 8400
 Connection ~ 7000 8350
 $Comp
-L power:GND #PWR0169
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR0169
 U 1 1 62060B84
 P 7000 8900
 F 0 "#PWR0169" H 7000 8650 50  0001 C CNN
@@ -2868,7 +2868,7 @@ Wire Wire Line
 	7000 7050 6800 7050
 Connection ~ 7000 7700
 $Comp
-L Device:Q_NMOS_DGS Q5
+L uSDX_Transceiver_SMD-rescue:Q_NMOS_DGS-Device Q5
 U 1 1 620FA6DF
 P 7100 6500
 F 0 "Q5" H 7305 6454 50  0000 L CNN
@@ -2912,7 +2912,7 @@ Wire Wire Line
 Text GLabel 21850 3650 2    50   Input ~ 0
 uC_VCC
 $Comp
-L SamacSys_Parts:LM1117MPX-50NOPB IC2
+L uSDX_Transceiver_SMD-rescue:LM1117MPX-50NOPB-SamacSys_Parts IC2
 U 1 1 62404E10
 P 3800 1450
 F 0 "IC2" H 3850 1750 50  0000 C CNN
@@ -2931,7 +2931,7 @@ F 11 "https://www.arrow.com/en/products/lm1117mpx-50nopb/on-semiconductor?region
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:SJ-43514-SMT-TR J4
+L uSDX_Transceiver_SMD-rescue:SJ-43514-SMT-TR-SamacSys_Parts J4
 U 1 1 6247CF6B
 P 7950 1550
 F 0 "J4" H 7950 1850 50  0000 C CNN
@@ -2959,7 +2959,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 1450 10200 1450
 $Comp
-L SamacSys_Parts:UCQ1C100MCL1GB C14
+L uSDX_Transceiver_SMD-rescue:UCQ1C100MCL1GB-SamacSys_Parts C14
 U 1 1 625D3C90
 P 8800 1650
 F 0 "C14" H 9000 1900 50  0000 L CNN
@@ -2988,7 +2988,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 1650 8250 1650
 $Comp
-L Device:R R20
+L uSDX_Transceiver_SMD-rescue:R-Device R20
 U 1 1 627F58A6
 P 13250 1800
 F 0 "R20" H 13100 1850 50  0000 L CNN
@@ -3003,7 +3003,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 1650 13250 1500
 $Comp
-L user:testpoint TP6
+L uSDX_Transceiver_SMD-rescue:testpoint-user TP6
 U 1 1 62873FCA
 P 15700 8300
 F 0 "TP6" H 15650 8200 50  0000 L CNN
@@ -3019,7 +3019,7 @@ Connection ~ 15700 8550
 Wire Wire Line
 	15700 8550 15800 8550
 $Comp
-L user:testpoint TP5
+L uSDX_Transceiver_SMD-rescue:testpoint-user TP5
 U 1 1 628C3159
 P 7450 8400
 F 0 "TP5" V 7450 8200 50  0000 L CNN
@@ -3035,7 +3035,7 @@ Connection ~ 7000 8400
 Wire Wire Line
 	7000 8400 7000 8350
 $Comp
-L user:testpoint TP4
+L uSDX_Transceiver_SMD-rescue:testpoint-user TP4
 U 1 1 629112A7
 P 5200 7900
 F 0 "TP4" H 5150 7800 50  0000 L CNN
@@ -3051,7 +3051,7 @@ Connection ~ 5200 8100
 Wire Wire Line
 	5200 8100 5500 8100
 $Comp
-L user:testpoint TP1
+L uSDX_Transceiver_SMD-rescue:testpoint-user TP1
 U 1 1 62939E51
 P 2000 8050
 F 0 "TP1" H 1950 7950 50  0000 L CNN
@@ -3067,7 +3067,7 @@ Connection ~ 2000 8250
 Wire Wire Line
 	2000 8250 2450 8250
 $Comp
-L user:testpoint TP3
+L uSDX_Transceiver_SMD-rescue:testpoint-user TP3
 U 1 1 629631C6
 P 3800 7000
 F 0 "TP3" V 3800 6800 50  0000 L CNN
@@ -3083,7 +3083,7 @@ Connection ~ 4050 7000
 Wire Wire Line
 	4050 7000 4050 6800
 $Comp
-L user:testpoint TP2
+L uSDX_Transceiver_SMD-rescue:testpoint-user TP2
 U 1 1 6298DA3E
 P 2650 6100
 F 0 "TP2" H 2600 6000 50  0000 L CNN
@@ -3101,7 +3101,7 @@ Wire Wire Line
 Text GLabel 9250 900  1    50   Input ~ 0
 AVCC
 $Comp
-L user:LPF U1
+L uSDX_Transceiver_SMD-rescue:LPF-user U1
 U 1 1 620F3A50
 P 3000 8250
 F 0 "U1" H 3000 8700 50  0000 C CNN
@@ -3121,7 +3121,7 @@ Connection ~ 20950 3650
 Wire Wire Line
 	20950 3650 21350 3650
 $Comp
-L Device:C C34
+L uSDX_Transceiver_SMD-rescue:C-Device C34
 U 1 1 61E46953
 P 14700 5500
 F 0 "C34" H 14450 5500 50  0000 L CNN
@@ -3132,7 +3132,7 @@ F 3 "~" H 14700 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR01
+L uSDX_Transceiver_SMD-rescue:GND-power #PWR01
 U 1 1 61E48C4B
 P 14700 5750
 F 0 "#PWR01" H 14700 5500 50  0001 C CNN

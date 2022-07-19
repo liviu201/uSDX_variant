@@ -1225,14 +1225,10 @@ Text GLabel 19050 1350 1    50   BiDi ~ 0
 SDA
 Text GLabel 18900 1350 1    50   Output ~ 0
 SCL
-Text GLabel 20450 3150 2    50   Input ~ 0
-I
 Text GLabel 20450 3050 2    50   Input ~ 0
+I
+Text GLabel 20450 3150 2    50   Input ~ 0
 Q
-Wire Wire Line
-	20450 3150 20300 3150
-Wire Wire Line
-	20300 3050 20450 3050
 Text GLabel 19350 1350 1    50   Output ~ 0
 PC2
 Text GLabel 19200 1350 1    50   Input ~ 0
@@ -3161,4 +3157,8 @@ Wire Wire Line
 Connection ~ 14550 5300
 Wire Wire Line
 	14550 5300 14700 5300
+Wire Wire Line
+	20450 3050 20300 3050
+Wire Wire Line
+	20300 3150 20450 3150
 $EndSCHEMATC

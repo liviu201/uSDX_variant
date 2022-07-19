@@ -5,6 +5,9 @@
 #include "util/delay.h"
 #include "avr/io.h"
 
+#define CGRAM_MAX_CHARS 8
+#define CGRAM_CHARS_EXCEEDED 0xFFu
+
 // LCD1602 display in 4-bit mode, RS is pull-up and kept low when idle to prevent
 // potential display RFI via RS line
 class LCD{  

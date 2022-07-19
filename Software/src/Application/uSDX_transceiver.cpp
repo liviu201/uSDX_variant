@@ -21,7 +21,7 @@ int main(void)
     theLCD.init();
     theLCD.clear();
     theLCD.setCursor(1,4);
-    theLCD.print(message, ARRAY_LEN(message));
+    theLCD.print(message, MESSAGE_LEN(message));
 
     while(1)
     {
